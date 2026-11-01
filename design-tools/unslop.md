@@ -1,8 +1,7 @@
 # unslop ｜ 把 AI 味界面改成有性格的设计
 
 ## 仓库 / 官网
-- [GitHub: heydamir/unslop](https://github.com/heydamir/unslop)（原仓库）
-- [sue1231511/unslop](https://github.com/sue1231511/unslop)（自己的私有备份，原样拷贝）
+- [GitHub: heydamir/unslop](https://github.com/heydamir/unslop)
 
 ## 功能描述
 给 Claude Code 和 Codex 用的设计 skill，把一看就是 AI 做的界面改成有自己性格的设计：先体检挑出「AI 味」，再从产品本身定方向，然后像设计师批改红笔图一样一遍遍改。
@@ -29,7 +28,7 @@ mkdir -p ~/.claude/skills && cp -r unslop/skills/unslop ~/.claude/skills/
 Claude Code 里输 `/unslop 这个页面`，Codex 里输 `$unslop`。
 
 ## 收录笔记
-核验于 2026-11-01：原仓库公开可访问，21 个文件约 1.6M，已原样备份到 sue1231511/unslop（私有）。对照 Mikeko：它建议左上角品牌字 16–18、导航行 32–36，比 Mikeko 现在的 24 和 44 都小。
+核验于 2026-11-01：原仓库公开可访问，21 个文件约 1.6M。
 
 ## 分类标签
 `设计审查` `反AI模板` `设计规范` `Claude Code` `Codex` `前端`
