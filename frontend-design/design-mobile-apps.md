@@ -20,5 +20,8 @@
 ## 链接
 - [GitHub: ceorkm/mobile-app-ui-design](https://github.com/ceorkm/mobile-app-ui-design)
 
+## 备选链接
+- [GitHub: nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)（147,815 Stars，MIT；2026-11-11 已核实恢复）
+
 ## 分类标签
 `移动端` `UI/UX` `设计系统` `React` `Tailwind` `设计原则` `Claude Code`

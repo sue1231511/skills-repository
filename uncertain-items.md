@@ -2,6 +2,7 @@
 
 > 本文件集中收录公开渠道暂未找到明确对应项目、链接无法验证或来源模糊的条目。
 > 不进入 Web UI 正式列表，仅作为线索备忘。
+> 2026-11-11 按“公开、能打开、内容对得上就收，许可证如实写进收录笔记”的口径全部重核一遍：能挪的已移入正式分类，挪不走的写明原因留在此处。
 
 ---
 
@@ -9,9 +10,9 @@
 
 | # | Skill | 原文件 | 问题描述 | 建议处理 |
 |---|---|---|---|---|
-| 1 | `AIPlanHub` | `ai-tools/AIPlanHub.md` | AIPlanHub 无独立公开仓库，可能是 HsMirage 个人主页概念 | 保留现有关联项目链接，标注为概念项目 |
-| 2 | `CipherMind` | `chrome-extensions/ciphermind.md` | Chrome 插件，公开渠道（GitHub / Chrome Web Store）未找到对应项目 | 保持 `chrome-extensions/` 或移入本文件 |
-| 3 | `Design Mobile Apps` 备选 | `frontend-design/design-mobile-apps.md` | `nextlevelbuilder/ui-ux-pro-max-skill` 未验证 | 已删除备选链接，保留 `ceorkm/mobile-app-ui-design` |
+| 1 | `CipherMind` | `chrome-extensions/ciphermind.md` | Chrome 插件，公开渠道（GitHub / Chrome Web Store）未找到对应项目；2026-11-11 重核：GitHub 同名仓库全是 RAG 应用/加密通信/Steam 游戏，Chrome Web Store 同名 “Cipher Mind” 是名言解谜游戏，均与线索“AI 浏览器自动化插件”不符 | 需猫猫提供作者或商店链接 |
+
+已解决（2026-11-11）：`AIPlanHub` 真实仓库存在（`HsMirage/AIPlanHub`，165 stars，2026-11-11 仍在更新），旧版“无独立公开仓库，可能是个人主页概念”的说法已证伪，`ai-tools/AIPlanHub.md` 已修正；`Design Mobile Apps` 备选 `nextlevelbuilder/ui-ux-pro-max-skill` 已核实（MIT，147,815 stars），已收录 `frontend-design/ui-ux-pro-max-skill.md` 并恢复为备选链接。
 
 ---
 
@@ -19,32 +20,33 @@
 
 | # | Skill | 原文件 | 状态 |
 |---|---|---|---|
-| 1 | `card-duo` | `photo-design/card-duo.md` | 待确认 |
-| 2 | `photo-to-minimal-illustration` | `photo-design/photo-to-minimal-illustration.md` | 待确认 |
+| 1 | `card-duo` | `photo-design/card-duo.md` | 待确认（2026-11-11 重核：GitHub 与全网均无名为 card-duo 的 skill） |
+
+已解决（2026-11-11）：`photo-to-minimal-illustration` 已验证（`iamkong/photo-to-minimal-illustration`，MIT，19 stars），`photo-design/photo-to-minimal-illustration.md` 已由待确认翻转为已验证。
 
 ---
 
-## 三、notes/pending-art-skills.md 中的未确认线索（17个）
+## 三、notes/pending-art-skills.md 中的线索（17个，2026-11-11 重核结果）
 
-| # | 线索名称 | 推测方向 | 搜索状态 |
-|---|---|---|---|
-| 1 | `travel-memory-card-duo` | 在 travel-memory-sticker-card 基础上修改，带教程卡 | 未找到确切匹配（注：`carolinaaafy/travel-memory-card-duo` 已找到，与本线索可能相关） |
-| 2 | `photo-to-doodle-duo` | 照片转简笔画 duo/双联画 | 未找到确切匹配 |
-| 3 | `S.006-Starryear-Fourgrid` | 星空/四季/四格网格相关 | 未找到确切匹配 |
-| 4 | `y2k-pop-poster` | Y2K 千禧波普海报风格 | 未找到确切匹配 |
-| 5 | `daily-photo-playground` | 每日照片 playground/实验场 | 未找到确切匹配 |
-| 6 | `paper-spirit-zine` | 纸张精神/灵魂 Zine 风格 | 未找到确切匹配 |
-| 7 | `photo-relic-editorial` | 照片遗物/ relic 编辑风格 | 未找到确切匹配（类似：photo-abstract-editorial） |
-| 8 | `photo-to-travel-sketch` | 照片转旅行速写/素描 | 未找到确切匹配（类似：Evianis/travel-photo-abstraction） |
-| 9 | `neil-quentin` | 可能与人物/肖像风格相关 | 未找到确切匹配 |
-| 10 | `kodak-2383-film-look` | Kodak 2383 电影胶片风格模拟 | 未找到确切 skill（类似：mono-color-skill 可部分实现） |
-| 11 | `pixel-style-poster-skill` | 像素风格海报 skill | 未找到确切匹配 |
-| 12 | `skill-make-photo-stamp-archive` | 照片转印章/图章效果，带归档功能 | 未找到确切匹配 |
-| 13 | `afterimage-lavRainform` | 可能与 afterimage 或 lav（lavender）Rainform 相关 | 未找到确切匹配 |
-| 14 | `promptcard` | prompt 卡片/模板工具 | 未找到确切匹配 |
-| 15 | `Table-Skills` | 可能与表格/数据相关的 skill 集合 | 未找到确切匹配 |
-| 16 | `学习进度数据持久化 skill` | 学习进度保存、导入导出的数据持久化 skill | 未找到确切匹配 |
-| 17 | `Cloud Studio 部署 skill` | Cloud Studio 部署网站、实现类 APP 访问的部署 skill | 未找到确切匹配 |
+| # | 线索名称 | 结论 |
+|---|---|---|
+| 1 | `travel-memory-card-duo` | ✅ 已收录 `photo-design/travel-memory-card-duo.md`（`carolinaaafy/travel-memory-card-duo`，174 stars，个人非商业许可） |
+| 2 | `photo-to-doodle-duo` | 仍未找到，留 notes（GitHub 搜索 0 结果） |
+| 3 | `S.006-Starryear-Fourgrid` | ✅ 已收录 `photo-design/s006-starryear-fourgrid.md`（`Hyden163/S.006-Starryear-Fourgrid`，个人非商业许可） |
+| 4 | `y2k-pop-poster` | ✅ 已收录 `photo-design/y2k-pop-poster.md`（`koinu32/y2k-pop-poster`，CC BY-ND 4.0） |
+| 5 | `daily-photo-playground` | ✅ 已收录 `photo-design/daily-photo-playground.md`（`luji12/daily-photo-playground`，无 LICENSE 文件） |
+| 6 | `paper-spirit-zine` | ✅ 已收录 `photo-design/paper-spirit-zine.md`（`wnby/paper-spirit-zine`，README 称 MIT、无 LICENSE 文件） |
+| 7 | `photo-relic-editorial` | ✅ 已收录 `photo-design/photo-relic-editorial.md`（`wnby/photo-relic-editorial`，MIT，451 stars） |
+| 8 | `photo-to-travel-sketch` | ✅ 已收录 `photo-design/photo-to-travel-sketch.md`（`liigoQi/photo-to-travel-sketch`，MIT，13 stars） |
+| 9 | `neil-quentin` | ✅ 已收录 `photo-design/neil-quentin.md`（`Nealsun1993/neil-quentin`，MIT，16 stars） |
+| 10 | `kodak-2383-film-look` | ✅ 已收录 `photo-design/kodak-2383-film-look.md`（`N1kO724/kodak-2383-film-look`，MIT，6 stars；README 自声明非官方） |
+| 11 | `pixel-style-poster-skill` | ✅ 已收录 `photo-design/pixel-style-poster-skill.md`（`v92388375-gif/pixel-style-poster-skill`，MIT，163 stars） |
+| 12 | `skill-make-photo-stamp-archive` | ✅ 已收录 `photo-design/make-photo-stamp-archive.md`（`Dlcccc71913/skill-make-photo-stamp-archive`，MIT，380 stars） |
+| 13 | `afterimage-lavRainform` | 仍未找到，疑似名字拼写/转录有误，留 notes |
+| 14 | `promptcard` | 仍未找到，留 notes（无名为 promptcard 的 skill；类似项目均为工具/应用而非 skill） |
+| 15 | `Table-Skills` | 仓库真实存在（`duoduoler-ops/Table-skills`，MIT，462 stars），但内容是项目交接合集，与表格/数据无关；本线索留 notes，仓库本身可另议是否单独收 |
+| 16 | `学习进度数据持久化 skill` | 两参考均不符，留 notes：`haddock-development/claude-reflect-system` 无 LICENSE 文件且导出/导入未实现；`contextstream/mcp-server` 是 MCP 服务非 skill、后端不开源 |
+| 17 | `Cloud Studio 部署 skill` | 功能对得上的 skill 已找到（WorkWit 内置 `cloudstudio_deploy`），但母仓库无 LICENSE 文件且依赖平台内置工具，待作者补许可后再议，留 notes |
 
 ---
 
@@ -58,7 +60,19 @@
 
 ---
 
-## 五、建议
+## 五、art-skills-index.md 新增 5 项（2026-11-11 核查）
+
+| # | 线索名称 | 结论 |
+|---|---|---|
+| 1 | `flash4start_light` | ✅ 已收录 `photo-design/flash4start-light.md`（`Buantum/flash4start_light`，21 stars，无 LICENSE 文件） |
+| 2 | `ZONE-Material-art` | ✅ 已收录 `photo-design/zone-material-art.md`（`joeyhu1108-maker/ZONE-Material-art`，6 stars，无 LICENSE 文件） |
+| 3 | `silhouette-group-collage` | ✅ 已收录 `photo-design/silhouette-group-collage.md`（`liuzihe849-png/silhouette-group-collage`，MIT，17 stars） |
+| 4 | `antibes-holiday` | 仍未找到，留 notes（GitHub 精确搜索 0 条） |
+| 5 | `create-pantone-photo` | 仍未找到，留 notes（GitHub 精确搜索 0 条） |
+
+---
+
+## 六、建议
 
 - 如能提供作者、平台、截图或更多上下文，可进一步精确定位未确认条目
 - 欢迎提交 PR 补充信息
@@ -66,4 +80,4 @@
 
 ---
 
-*最后更新：2026-09-18*
+*最后更新：2026-11-11*

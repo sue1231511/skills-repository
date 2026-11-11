@@ -1,24 +1,13 @@
-# Photo to Minimal Illustration ｜ 照片转极简插画（待确认）
+# Photo to Minimal Illustration ｜ 照片转极简插画
 
-## 来源
-- 用户提及的艺术 Skill 之一
+## 仓库 / 官网
+- [GitHub: iamkong/photo-to-minimal-illustration](https://github.com/iamkong/photo-to-minimal-illustration)（19 Stars，MIT）
 
-## 说明
-在公开渠道暂未找到明确对应的独立 skill。
+## 功能描述
+将任意照片转译成极简、克制、留白充足的 editorial Field Study 插画：暖奶油色背景、低饱和主色、克制细墨线与大面积留白，附示例图。
 
-## 推测方向
-从名称推断，可能涉及：
-- 将照片简化为极简风格插画
-- 保留核心轮廓，去除细节
-- 适合图标、头像、装饰元素
-
-### 已知类似项目参考
-- ** tojileon/ian-xiaohei-illustrations-en**：16:9 手绘说明插画，极简红/橙/蓝注释
-- ** LiamGvchi/gc-minimal-zine-poster**：极简 Zine 海报
-- ** Zeejay0/gathered-scenes-zine-skill**：实景拼贴 / 影像蒸馏
-
-## 建议
-- 如能提供作者或更多上下文，可进一步精确定位
+## 收录笔记
+MIT 开源许可。2026-11-11 核实，由待确认翻转为已验证。（核验于 2026-11-11）
 
 ## 分类标签
-`照片处理` `插画` `极简` `待确认`
+`照片处理` `插画` `极简`
