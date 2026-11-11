@@ -3,9 +3,9 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 267 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 280 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
 
-## frontend-design/（53个，含 2 个待确认）
+## frontend-design/（55个，含 2 个待确认）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -49,6 +49,8 @@
 | React Bits | `DavidHDev/react-bits` | 开源免费的 React 动画交互组件库，140+ 炫酷组件，即选即用。 |
 | React Native Elements | `react-native-elements/react-native-elements` | 给 React Native 写 App 用的现成界面零件：按钮、卡片、输入框、头像、开关、列表等，一份代码同时用在 iOS 和安卓，也能跑在网页上 |
 | Refero Styles | `fidgetcoding/refero-design-mcp` | 约 200 套 curated 设计系统的自然语言搜索库，每套包含完整的 DESIGN.md 文件。 |
+| rossark-motion-skill | `rossark0/rossark-motion-skill` | 把任意 SVG 变成专业级 60fps 动画：会动的脸、全身表演、整场演出。 |
+| Superdesign skill | `superdesigndev/superdesign-skill` | 给 coding agent 的设计判断 skill，专治 AI 味界面；与已收录的 unslop、Hallmark 方向相近。 |
 | SVG Animations | `supermemoryai/skills` | 让 Agent 直接编写 SVG 动画与动态图形，可用于图标、Logo、加载动画与路径动画。 |
 | theSVG | `glincker/thesvg` | 为 Agent 提供可检索的真实品牌与云服务 SVG 图标，适合避免模型临时瞎画品牌 Logo 与架构图标。 |
 | ThreeUI | `MengTo/threeui` | 开源 React 3D / WebGL 组件与交互模板库，适合给网页加入 3D Hero、背景、按钮、图标和空间感动效，而不用从零手搓 Three.js。 |
@@ -105,7 +107,7 @@
 | Y2K Pop Poster | `koinu32/y2k-pop-poster` | 识别照片主体后，制作高饱和撞色描边、短文字、星芒与波点装饰组成的 Y2K 剪贴海报，提供干净印刷、标准 Y2K、重度复古三档质感。 |
 | ZONE Material Art | `joeyhu1108-maker/ZONE-Material-art` | 把照片与主题转译为原创材料艺术、浮雕与装置方案的 skill。 |
 
-## video-production/（29个）
+## video-production/（30个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -123,6 +125,7 @@
 | VideoZero Motion Canvas Skills | `VideoZero/skills` | 一套面向 Agent 的 Motion Canvas 视频生成 Skills。 |
 | OneTake | `feitangyuan/onetake` | 面向 Claude Code / Codex 的产品视频制作 Skill。 |
 | OpenMontage | `calesthio/OpenMontage` | AI 驱动的影像/视频自动化编排项目 |
+| reanimate | `NiazMorshed2007/reanimate` | 把喜欢的动画逐帧逆向，再在上面做自己的版本，支持网站、录屏、mp4、gif、Lottie。 |
 | Reddit Automation | `PHY041/claude-skill-reddit` | 自动化 Reddit 操作：刷 karma、发帖、评论、搜索。 |
 | Remotion Ad Video Skill | `Alon17-12/remotion-ad-video-skill` | Claude Code 视频 Skill，用 Remotion 直接编写产品与 SaaS 广告视频，并结合 Python 做 BPM / Beat Grid 分析、音效合成和视觉 QA。 |
 | Remotion Clone Video | `crafter-station/remotion-clone-video` | 面向 Claude Code、Cursor、Codex、Gemini CLI 等 Agent 的视频重建 Skill。 |
@@ -151,10 +154,11 @@
 | TAIT CRT Interface Skill | `TaiT-tt/tait-crt-interface-skill` | 根据主题/对象/概念创建复古 CRT 计算机界面风格的插图。 |
 | teardown | `elvarofficial/teardown` | 把任意机器变成可拆解的 3D 模拟器：离线 HTML 一页，机器在中间运转，面板读真实数字，点按钮打开正在工作的零件，没人碰时页面自己巡游讲解。 |
 
-## design-tools/（13个）
+## design-tools/（14个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
+| Archify | `tt-a1i/archify` | 把任何想法、计划或代码库变成漂亮的交互式架构图。 |
 | Better Design | `marvkr/better-design` | 给 Coding Agent 补上一层可检索、可执行、可复查的设计上下文。 |
 | Dembrandt | `dembrandt/dembrandt` | 从网页中提取 Logo、颜色、字体、间距、边框、阴影与组件规律，整理为可复用的设计资产和 Design Tokens。 |
 | Design.md Skill | `arumwu/design-md-skill` | 提供大量真实品牌的 design.md / 设计系统参考，让 Agent 按成熟品牌规则做视觉与前端，而不是临场生成一套泛化风格。 |
@@ -189,7 +193,7 @@
 | Caveman | `JuliusBrussee/caveman` | 教 Claude 像 caveman 一样说话，大幅减少输出 token。 |
 | Rescue Tokens | `valorisa/Claude-Skills` | 当检测到 rate limit、高上下文或 5+ MCP 加载时自动激活，通过 9 种优化模式防止 token 耗尽。 |
 
-## methodology/（20个）
+## methodology/（23个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -206,15 +210,18 @@
 | Codex 前端工程化工作流 | — | 用 Codex 写前端时，只给模糊需求会出廉价 AI 模板感，根源是让 AI 自己猜审美。 |
 | Dev Guidelines Skill | `sue1231511/dev-guidelines-skill` | OrangeChat Agent Skill，用于在编码、代码审查、错误处理和技术方案评估时，强制执行统一的开发与协作规范。 |
 | engineering/code-review | `mattpocock/skills` | Matt Pocock 的代码审查 Skill。 |
+| Karpathy-Inspired Guidelines | `multica-ai/andrej-karpathy-skills` | 一份 CLAUDE.md，照 Andrej Karpathy 的 LLM 编程观察写成的 guideline。 |
 | Lighthouse 旅行纪念明信片提示词模板 | — | 将上传的照片制作成一张竖版旅行纪念明信片，保留照片作为唯一内容来源，结合手撕纸边缘、复古旅行插画和邮戳元素。 |
 | ponytail | `DietrichGebert/ponytail` | 让你的 AI agent 像组里最懒的资深工程师一样思考：最好的代码是没写的代码。 |
 | rea | `morluto/rea` | 用 agent 从应用行为到底层二进制逆向任何东西；中英日韩等多语 README。 |
 | Replica skill | `Jakeschincariol/replica-skill` | 11 个免费 Claude skill，克隆任何应用：逆向、重建、测 bug，再读用户差评把它改成能卖的产品；无注册、无 API key。 |
 | reverse-skill | `zhaoxuya520/reverse-skill` | 逆向工程 AI 技能：从优秀产品反推 prompt 与能力设计 |
+| Superpowers | `obra/superpowers` | 完整的 agent 软件开发方法论与可组合 skills，TDD 驱动。 |
+| tstack | `t3dotgg/tstack` | Theo Browne 每天用的 agent skills 合集（full-send 等），Claude Code / Codex 可用。 |
 | Vibe Coding 最佳提问方式 | — | 别只说"帮我做个 App"，采用"先调研，再定方案，最后动手"的三步法。 |
 | Zeejay0 Visual Skill 使用示例 | `Zeejay0/gathered-scenes-zine-skill` | Zeejay0 视觉 Skill 的使用示例：以水墨国风五重塔提示词演示保留主体、弱化构图做风格重构。 |
 
-## ai-tools/（27个）
+## ai-tools/（29个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -223,10 +230,12 @@
 | Agent Reach | `Panniantong/Agent-Reach` | 给 AI Agent 一键装上互联网能力，当下最稳的接入方式，替你选好、装好、体检好。 |
 | agent-skills | `addyosmani/agent-skills` | 为 Claude Code 等 AI 编程工具提供可复用的 Agent Skills 模板与最佳实践，涵盖代码审查、测试生成、调试、性能优化等开发场景。 |
 | Agentic Inbox | `cloudflare/agentic-inbox` | 基于 Cloudflare 生态的开源 AI 邮件助手，利用 Agents 与向量数据库实现邮件分类、摘要、自动回复与智能搜索。 |
+| Anthropic 官方 Skills | `anthropics/skills` | Anthropic 官方 Agent Skills 仓库，141+ 个 skill，含文档处理等多个类别。 |
 | awesome-agent-skills | `VoltAgent/awesome-agent-skills` | 1000+ agent skills 精选合集，官方与社区出品，兼容 Claude Code、Codex、Gemini CLI、Cursor 等。 |
 | browser-use | `browser-use/browser-use` | 让 AI Agent 像人一样操作浏览器完成任务 |
 | buzz | `block/buzz` | Block 出品的「蜂群思维」通信平台：签名、追加式工作区，人类与 AI agent 的协作全程可审计、不可篡改。 |
 | claude-plugins-official | `anthropics/claude-plugins-official` | Anthropic 官方维护的高质量 Claude Code 插件目录。 |
+| ECC | `affaan-m/ECC` | Agent harness 性能优化系统：skills、直觉、记忆、安全、研究优先开发。 |
 | Fincept Terminal | `Fincept-Corporation/FinceptTerminal` | 面向个人与机构的开源金融数据终端，提供实时行情、新闻、财报、技术指标与量化研究工具，作为彭博终端的平价替代。 |
 | GitHub Idea Finder | `cxxCoolStar/github-idea-finder` | 从一个产品想法出发，发现并评估 GitHub 上的开源替代项目。 |
 | grok-build | `xai-org/grok-build` | xAI 开源的 coding agent harness 与终端 TUI |
@@ -333,27 +342,31 @@
 | stackchan-mcp | `migratorywhale/stackchan-mcp` | 给 AI 一个身体：Stack-chan（M5Stack CoreS3）的 MCP 桥，说/听/看/动/表情全走 MCP |
 | utsuwa | `The-Lab-by-Ordinary-Company/utsuwa` | Grok Companion 的开源替代：一个会陪你学习成长的虚拟 AI 伴侣平台，带日式约会模拟游戏（dating sim）机制，Svelte+Tauri+Three.js。 |
 
-## games/（10个）
+## games/（13个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | Claude Code Game Studios | `Donchitos/Claude-Code-Game-Studios` | 一句话描述游戏，Claude Code 问几个问题、写一页 brief，做出可玩的浏览器游戏，再一步步改大改完；含 49 个 agent、72 个工作流 skill。 |
 | 赌场主题 COCOFOLIA APNG 通用地图界面素材 | 官网 www.postype.com | 给 COCOFOLIA（网页跑团平台）用的赌场主题通用地图界面素材，带 APNG 动态效果，免费下载。 |
+| Console skill | `Jakeschincariol/console-skill` | 11 个 Claude skill，把你拥有的 PS2 游戏移植到 PC：逆向、重建画面与后端、任意手柄、随处游玩，还能接着 mod。 |
 | estella | `esengine/estella` | 快速 2D 游戏引擎：TypeScript SDK + C++/WASM 内核 + 可视化编辑器，一键发布 Web/桌面/微信小游戏/原生移动端。 |
 | kaleidoscope-rp | `sebastianevan200-stack/kaleidoscope-rp` | 万花筒角色扮演：LLM 驱动的随机叙事小项目 |
 | llm-nursery | `tsuru0805/llm-nursery` | LLM 驱动的育儿模拟器小游戏，纯标准库实现 |
+| NovelToGame | `zenstory-ai/novel-to-game` | 把小说改编成可玩游戏：文字冒险、策略经营、互动影游，从策划案到可运行代码一站式生成。 |
+| NPCTalk | `christos-antono/NPCTalk` | 让任何游戏里的 NPC 用 Fish Audio 开口回话：自托管语音服务器加完整 GTA V 示例；与 universal-modder 同生态。 |
 | OpenGame | `leigest519/OpenGame` | Open Agentic Coding for Games：用 agent 化方式做游戏的开放项目。 |
 | pixelfx | `patch-gg/pixelfx` | 244 个像素风特效，每一个都是一小段代码，附 Claude Code skill 教你自己做。 |
 | soonfx | `soonfx-engine/core` | TypeScript 游戏数值引擎：RPG/策略游戏的公式解析、战斗模拟、表达式计算，零依赖类型安全。 |
 | universal-modder | `rehan-remade/universal-modder` | 指着你拥有的任何 PC 游戏，让 AI coding agent 给它做 mod：侦察、逆向、生成素材、发布分享。 |
 | usagi | `brettchalupa/usagi` | 简单的 2D 游戏引擎：Lua 脚本、热重载、跨平台导出，Rust 内核，走 LÖVE/PICO-8 的快速原型路线（GitHub 为镜像，主开发在 Codeberg）。 |
 
-## marketing-growth/（4个）
+## marketing-growth/（5个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | ai-marketing-skills | `ericosiu/ai-marketing-skills` | 开源 AI 营销技能包：增长实验、销售管道、内容运营、外联获客、SEO、财务自动化，面向 Claude Code 等 agent。 |
 | backlink-pilot | `s87343472/backlink-pilot` | 独立开发者的外链提交工具包：一条命令把产品提交到目录站、awesome 清单和搜索引擎，Playwright 驱动。 |
+| Claude SEO | `AgriciDaniel/claude-seo` | 通用 SEO skill：26 个子 skill 加 19 个 specialist agent，覆盖技术 SEO、E-E-A-T、Schema、GEO/AEO。 |
 | marketingskills | `coreyhaines31/marketingskills` | 给 Claude Code 等 AI agent 的营销技能包：CRO、文案、SEO、数据分析、增长工程。 |
 | open-seo | `every-app/open-seo` | 开源的 Semrush / Ahrefs 平替：关键词研究、外链分析、站点审计，带 Google Search Console MCP。 |
 
