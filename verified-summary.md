@@ -3,7 +3,7 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 280 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 285 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
 
 ## frontend-design/（55个，含 2 个待确认）
 
@@ -193,7 +193,7 @@
 | Caveman | `JuliusBrussee/caveman` | 教 Claude 像 caveman 一样说话，大幅减少输出 token。 |
 | Rescue Tokens | `valorisa/Claude-Skills` | 当检测到 rate limit、高上下文或 5+ MCP 加载时自动激活，通过 9 种优化模式防止 token 耗尽。 |
 
-## methodology/（23个）
+## methodology/（24个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -212,6 +212,7 @@
 | engineering/code-review | `mattpocock/skills` | Matt Pocock 的代码审查 Skill。 |
 | Karpathy-Inspired Guidelines | `multica-ai/andrej-karpathy-skills` | 一份 CLAUDE.md，照 Andrej Karpathy 的 LLM 编程观察写成的 guideline。 |
 | Lighthouse 旅行纪念明信片提示词模板 | — | 将上传的照片制作成一张竖版旅行纪念明信片，保留照片作为唯一内容来源，结合手撕纸边缘、复古旅行插画和邮戳元素。 |
+| opencode-power-pack | `waybarrios/opencode-power-pack` | 55 个可移植 skill，面向 Claude Code、Codex、OpenCode 1 与 2、Pi：代码审查、安全审计、功能开发、前端设计、MCP 工具、Hugging Face 机器学习/训练。 |
 | ponytail | `DietrichGebert/ponytail` | 让你的 AI agent 像组里最懒的资深工程师一样思考：最好的代码是没写的代码。 |
 | rea | `morluto/rea` | 用 agent 从应用行为到底层二进制逆向任何东西；中英日韩等多语 README。 |
 | Replica skill | `Jakeschincariol/replica-skill` | 11 个免费 Claude skill，克隆任何应用：逆向、重建、测 bug，再读用户差评把它改成能卖的产品；无注册、无 API key。 |
@@ -221,7 +222,7 @@
 | Vibe Coding 最佳提问方式 | — | 别只说"帮我做个 App"，采用"先调研，再定方案，最后动手"的三步法。 |
 | Zeejay0 Visual Skill 使用示例 | `Zeejay0/gathered-scenes-zine-skill` | Zeejay0 视觉 Skill 的使用示例：以水墨国风五重塔提示词演示保留主体、弱化构图做风格重构。 |
 
-## ai-tools/（29个）
+## ai-tools/（30个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -229,6 +230,7 @@
 | AIPlanHub | `HsMirage/AIPlanHub` | 一站式对比主流 AI 订阅方案，覆盖编程 / 视频 / 图片 / 音频 / API 多场景，帮用户找到性价比最高的选择。 |
 | Agent Reach | `Panniantong/Agent-Reach` | 给 AI Agent 一键装上互联网能力，当下最稳的接入方式，替你选好、装好、体检好。 |
 | agent-skills | `addyosmani/agent-skills` | 为 Claude Code 等 AI 编程工具提供可复用的 Agent Skills 模板与最佳实践，涵盖代码审查、测试生成、调试、性能优化等开发场景。 |
+| agent-vision-toolkit | `Anionex/agent-vision-toolkit` | 给纯文本模型“看图”的视觉工具箱与 skill：多图理解、图片问答、长截图 OCR、前端 UI 还原、GUI 自动化，可接 Codex、Claude Code、Pi、OpenCode 等。 |
 | Agentic Inbox | `cloudflare/agentic-inbox` | 基于 Cloudflare 生态的开源 AI 邮件助手，利用 Agents 与向量数据库实现邮件分类、摘要、自动回复与智能搜索。 |
 | Anthropic 官方 Skills | `anthropics/skills` | Anthropic 官方 Agent Skills 仓库，141+ 个 skill，含文档处理等多个类别。 |
 | awesome-agent-skills | `VoltAgent/awesome-agent-skills` | 1000+ agent skills 精选合集，官方与社区出品，兼容 Claude Code、Codex、Gemini CLI、Cursor 等。 |
@@ -342,10 +344,11 @@
 | stackchan-mcp | `migratorywhale/stackchan-mcp` | 给 AI 一个身体：Stack-chan（M5Stack CoreS3）的 MCP 桥，说/听/看/动/表情全走 MCP |
 | utsuwa | `The-Lab-by-Ordinary-Company/utsuwa` | Grok Companion 的开源替代：一个会陪你学习成长的虚拟 AI 伴侣平台，带日式约会模拟游戏（dating sim）机制，Svelte+Tauri+Three.js。 |
 
-## games/（13个）
+## games/（16个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
+| awesome-gamedev-agent-skills | `gamedev-skills/awesome-gamedev-agent-skills` | 77 个游戏开发 skill 合集（Godot、Unity、Unreal、Phaser、PixiJS、three.js 等 12 个引擎），附 router 按引擎与任务自动加载。 |
 | Claude Code Game Studios | `Donchitos/Claude-Code-Game-Studios` | 一句话描述游戏，Claude Code 问几个问题、写一页 brief，做出可玩的浏览器游戏，再一步步改大改完；含 49 个 agent、72 个工作流 skill。 |
 | 赌场主题 COCOFOLIA APNG 通用地图界面素材 | 官网 www.postype.com | 给 COCOFOLIA（网页跑团平台）用的赌场主题通用地图界面素材，带 APNG 动态效果，免费下载。 |
 | Console skill | `Jakeschincariol/console-skill` | 11 个 Claude skill，把你拥有的 PS2 游戏移植到 PC：逆向、重建画面与后端、任意手柄、随处游玩，还能接着 mod。 |
@@ -357,6 +360,8 @@
 | OpenGame | `leigest519/OpenGame` | Open Agentic Coding for Games：用 agent 化方式做游戏的开放项目。 |
 | pixelfx | `patch-gg/pixelfx` | 244 个像素风特效，每一个都是一小段代码，附 Claude Code skill 教你自己做。 |
 | soonfx | `soonfx-engine/core` | TypeScript 游戏数值引擎：RPG/策略游戏的公式解析、战斗模拟、表达式计算，零依赖类型安全。 |
+| sprite-gen | `aldegad/sprite-gen` | Codex/Claude skill，生成干净的 2D 游戏精灵图与动画图集：状态行、alpha 清理、帧提取、运行时图集的 component-row 流水线。 |
+| threejs-game-skills | `majidmanzarpour/threejs-game-skills` | Agent skills，用 Three.js 做可玩、精致的浏览器游戏：玩法、AAA 级画面、UI、QA，可选 AI 生成 3D、图片与音频素材。 |
 | universal-modder | `rehan-remade/universal-modder` | 指着你拥有的任何 PC 游戏，让 AI coding agent 给它做 mod：侦察、逆向、生成素材、发布分享。 |
 | usagi | `brettchalupa/usagi` | 简单的 2D 游戏引擎：Lua 脚本、热重载、跨平台导出，Rust 内核，走 LÖVE/PICO-8 的快速原型路线（GitHub 为镜像，主开发在 Codeberg）。 |
 

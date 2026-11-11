@@ -80,4 +80,12 @@
 
 ---
 
+## 七、已核实不收录（2026-11-11）
+
+| # | 项目 | 结论 |
+|---|---|---|
+| 1 | `wilwaldon/Claude-Code-Frontend-Design-Toolkit`（1,297 stars） | 不收：只是 README 索引清单，70+ 工具分 10 节列出、均链向别家仓库，本身不含任何 skill 文件，且其中多项库内已收录（UI/UX Pro Max、taste-skill）；无许可证，LICENSE 与 LICENSE.md 均不存在，README 亦无许可声明 |
+
+---
+
 *最后更新：2026-11-11*
