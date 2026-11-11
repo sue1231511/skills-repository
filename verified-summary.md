@@ -3,9 +3,9 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 252 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 267 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
 
-## frontend-design/（49个，含 2 个待确认）
+## frontend-design/（53个，含 2 个待确认）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -30,17 +30,21 @@
 | Galaxy Frontend Design | `Galaxy-Dawn/claude-scholar` | 用于生成具有明确视觉方向、可直接落地的高质量前端界面，重点避免常见的 AI 模板感和千篇一律的组件化审美。 |
 | GSAP + Framer Scroll Animation | `orlandobeans/skills-for-CLAUDE-CODE` | 面向长页面与产品展示站的滚动动画 Skill，覆盖 GSAP ScrollTrigger 与 Framer Motion 的常见滚动交互模式。 |
 | GSAP Skill | `greensock/gsap-skills` | GreenSock 官方出品的 AI Skill，教 AI coding agents 正确使用 GSAP（GreenSock Animation Platform）。 |
+| Hallmark | `Nutlope/hallmark` | 拒绝 AI 味的设计 skill：50 套主题，给 Claude Code / Codex / Cursor / OpenCode 做不像 AI 生成的界面，还能按名 redesign 和审计。 |
 | HeroUI Pro | 官网 heroui.pro | HeroUI 的付费高级组件与模板体系，覆盖 React 和 React Native，并提供面向 AI 工作流的 Pro Skills / MCP。 |
 | Image to Code | `OneWave-AI/claude-skills` | 把 UI 截图直接生成可用的前端代码，快速复刻页面。 |
 | Inkra | `inkrajs/inkra` | 一套铅笔手绘风格的 React 组件库：纸张纹理、手写字、笔触线条和淡彩，底下用真正的语义化 HTML 处理输入、选择和键盘交互。 |
 | interior.dev | `ddoemonn/interior` | 免费开源的 React 微交互组件库，专攻「点击后的那半秒」反馈：按钮状态切换不跳、长按确认删除、带档位感的滑块等。 |
+| Kubai Icons | `kubai087/kubai-icons` | 画一套风格统一的动态图标的 agent skill，附 2,800+ 已画好的开源图标，React / Vue 可用。 |
 | LiftKit | `Chainlift/liftkit` | 一套强调视觉比例、间距、颜色与光学平衡的 UI framework，可作为 AI 生成界面时的组件和视觉规范参考。 |
 | liquid-glass-recipes | `wave2234/liquid-glass-recipes` | CSS 玻璃拟态配方集：毛玻璃·磨砂玻璃·液态玻璃 |
 | Mae Design Skills | `mae616/design-skills` | 包含 UI 设计、前端实现、创意编码、可访问性与可用性心理学等多个 Skill，适合从设计到实现的完整前端工作流。 |
 | Morphicons | `guillermolg00/morphicons` | 让两个 SVG stroke 图标自动计算形状对应关系并生成平滑 morph 动画，例如菜单变关闭、播放变暂停，不需要手动画逐帧。 |
 | Motion Sites | `nomaan5541/motionsites-prompt-collection` | 177+ AI 网页设计提示词模板，专为 React + Tailwind CSS + Framer Motion 优化，复制即可使用。 |
 | Motion Web | `feitangyuan/motion-web` | 一个面向 Agent 与前端开发者的动效与创意网页工程体系。 |
+| MotionSites Web Builder | `Motionsites-AI/claude-skill` | 免费 Claude skill，让 Claude 做出影院级、获奖水准的落地页，而不是千篇一律的 AI 版式。 |
 | Animations | `mthines/agent-skills` | 从工程角度选择 CSS、Web Animations API、Motion 或 React Three Fiber，兼顾动效质量、性能与感知速度。 |
+| oil-ui | `oil-oil/oil-ui` | 给 AI Agent 的 UI 设计 skill：多方向探索、并排对比、对照真实截图打磨，中文/英文/日文 README 齐全。 |
 | Rare UI | `swamimalode07/rare-ui` | 主打「少见」动效的 React 组件集合，偏 Apple 风的毛玻璃、弹簧手感，每个组件一个文件，复制进项目后代码归自己。 |
 | React Bits | `DavidHDev/react-bits` | 开源免费的 React 动画交互组件库，140+ 炫酷组件，即选即用。 |
 | React Native Elements | `react-native-elements/react-native-elements` | 给 React Native 写 App 用的现成界面零件：按钮、卡片、输入框、头像、开关、列表等，一份代码同时用在 iOS 和安卓，也能跑在网页上 |
@@ -59,7 +63,7 @@
 | Yuanpu 源铺 | 官网 yuanpu.cc | 销售带完整前端代码的网站 UI 模板与源码的电商站，主打 "Designed by Humans, not AI"，强调人工设计、避免 AI 生成同质化模板。 |
 | Zero to Interface | `Wanyi4424/zero-to-interface` | 从视觉灵感、参考素材和设计方向出发，逐步整理并推进到可落地的界面设计。 |
 
-## photo-design/（36个，含 2 个待确认）
+## photo-design/（37个，含 2 个待确认）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -84,6 +88,7 @@
 | Photo to Travel Sketch | `liigoQi/photo-to-travel-sketch` | 把一张照片转成潦草的旅行速写：针管笔轮廓、激进的视觉删减与灰调干马克笔笔触。 |
 | Photo to Zine Postcard | `Whiplashzeb/photo-to-zine-postcard` | 把拍摄的照片转换成一套极简、留白充足、带手绘二创元素的 Zine 风格明信片（正反面）。 |
 | Pixel Style Poster Skill | `v92388375-gif/pixel-style-poster-skill` | Codex skill，生成 3:4 编辑风格位图海报的提示词及配套栅格图像：大颗粒点阵主体、可选标题主导或安静微排版、克制配色与低分辨率印刷质感。 |
+| ray-sticker-shop | `imraywang/ray-sticker-shop` | 一张照片或角色图，生成一整套形象一致的动态表情包，并打包成微信表情开放平台要的全部素材。 |
 | Reality Restaged | `traveler0621/reality-restaged` | 将纪实旅行摄影转换为克制的超现实电影化场景。 |
 | S.006-Starryear-Fourgrid | `Hyden163/S.006-Starryear-Fourgrid` | 将一张照片转译为摄影证据、诗意提炼、节奏结构与抽象灵魂四格：左上保留真实照片像素，其余三格分别为诗意记忆、结构节奏与抽象灵魂。 |
 | Scene to Art Lab | `Zeejay0/gathered-scenes-zine-skill` | 将照片转换为编辑插图，有两种创作路径：实景拼贴（保留照片作视觉锚点）与影像蒸馏（不保留原照片、从照片提取语义核心再创作）。 |
@@ -100,7 +105,7 @@
 | Y2K Pop Poster | `koinu32/y2k-pop-poster` | 识别照片主体后，制作高饱和撞色描边、短文字、星芒与波点装饰组成的 Y2K 剪贴海报，提供干净印刷、标准 Y2K、重度复古三档质感。 |
 | ZONE Material Art | `joeyhu1108-maker/ZONE-Material-art` | 把照片与主题转译为原创材料艺术、浮雕与装置方案的 skill。 |
 
-## video-production/（27个）
+## video-production/（29个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -108,6 +113,8 @@
 | AI Music | `hesreallyhim/awesome-claude-code` | 通过 CLI 生成 AI 音乐，集成 Google Lyria 3 等模型。 |
 | AI Video Generation | 官网 inference.sh | 通过 inference.sh CLI 生成 AI 视频，支持 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 等 40+ 模型。 |
 | Anything2Explainer | `Vincentwei1021/anything2explainer` | 输入任意主题，自动生成完整的黑底动态图形解说视频。 |
+| Claude Animated Shorts | `mromidev/claude-animated-shorts` | 55–70 秒竖屏动画故事短片 skill：2D 角色 + 彩色 3D 世界，墨水描边、电影镜头、进行曲配乐与音效。 |
+| huashu-art-motion | `alchaincyf/huashu-art-motion` | 36 种艺术风格、9 种解说语法，用代码让画动起来的艺术动画 skill；与已收录的 huashu-bird-sticker 同作者。 |
 | HyperFrames | `heygen-com/hyperframes` | 面向 AI Coding Agent 的开源视频渲染框架。 |
 | Image to Video | `Square-Zero-Labs/video-prompting-skill` | 将静态图片转换为视频的 AI skill。 |
 | 炼云视频 Lianyun Video Skill | `larry-xue/lianyun-video-skill` | 面向 Claude Code、Codex、豆包、Trae 等 Agent 的中文知识视频 packed skill。 |
@@ -132,14 +139,17 @@
 | 视频分享中源代码合集 | 官网 vcnw137wxpz4.feishu.cn | 一个以“视频分享中源代码合集”为标题的飞书 Wiki 资源入口，用于集中保存视频相关分享里提到的源代码与项目线索。 |
 | Wan 3.0 Prime Reference to Video | `Samuraigpt/generative-media-skills` | 基于 Wan 3.0 Prime API 的多模态参考素材生成视频 skill。 |
 
-## creative-visual/（4个）
+## creative-visual/（7个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
+| Anatomy | `wheresryan22/anatomy` | 把一个想法做成能动的等距插图来解释：真实机器和复杂系统的精细 SVG / WebGL / 3D 互动图。 |
+| Answer me with HTML | `QingYunA/answer-me-with-html` | 用一页能读的 HTML 回答复杂问题，配图表解；中英双语 README。 |
 | Hand Drawn Character Creator | 官网 gist.github.com | 基于种子的程序化生成手绘风格 2D 角色，结合 Canvas2D 笔刷引擎与 Three.js 绑定 rig，实现眨眼、视线跟随、庆祝动画等交互效果。 |
 | Holo Card Studio | `EverettFish/holo-card-studio` | 用 AI 生成的画作 + Blender + Three.js，创建交互式 3D 全息收藏卡网站。 |
 | Create Photo Flipbook UI | `HaichaoLihc/create-photo-flipbook-ui` | Codex skill，将拍摄的照片转换成具有表达力的 photobooks（相册），使用自带的 **2D Book** runtime（bundled runtime）。 |
 | TAIT CRT Interface Skill | `TaiT-tt/tait-crt-interface-skill` | 根据主题/对象/概念创建复古 CRT 计算机界面风格的插图。 |
+| teardown | `elvarofficial/teardown` | 把任意机器变成可拆解的 3D 模拟器：离线 HTML 一页，机器在中间运转，面板读真实数字，点按钮打开正在工作的零件，没人碰时页面自己巡游讲解。 |
 
 ## design-tools/（13个）
 
@@ -179,7 +189,7 @@
 | Caveman | `JuliusBrussee/caveman` | 教 Claude 像 caveman 一样说话，大幅减少输出 token。 |
 | Rescue Tokens | `valorisa/Claude-Skills` | 当检测到 rate limit、高上下文或 5+ MCP 加载时自动激活，通过 9 种优化模式防止 token 耗尽。 |
 
-## methodology/（18个）
+## methodology/（20个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -198,6 +208,8 @@
 | engineering/code-review | `mattpocock/skills` | Matt Pocock 的代码审查 Skill。 |
 | Lighthouse 旅行纪念明信片提示词模板 | — | 将上传的照片制作成一张竖版旅行纪念明信片，保留照片作为唯一内容来源，结合手撕纸边缘、复古旅行插画和邮戳元素。 |
 | ponytail | `DietrichGebert/ponytail` | 让你的 AI agent 像组里最懒的资深工程师一样思考：最好的代码是没写的代码。 |
+| rea | `morluto/rea` | 用 agent 从应用行为到底层二进制逆向任何东西；中英日韩等多语 README。 |
+| Replica skill | `Jakeschincariol/replica-skill` | 11 个免费 Claude skill，克隆任何应用：逆向、重建、测 bug，再读用户差评把它改成能卖的产品；无注册、无 API key。 |
 | reverse-skill | `zhaoxuya520/reverse-skill` | 逆向工程 AI 技能：从优秀产品反推 prompt 与能力设计 |
 | Vibe Coding 最佳提问方式 | — | 别只说"帮我做个 App"，采用"先调研，再定方案，最后动手"的三步法。 |
 | Zeejay0 Visual Skill 使用示例 | `Zeejay0/gathered-scenes-zine-skill` | Zeejay0 视觉 Skill 的使用示例：以水墨国风五重塔提示词演示保留主体、弱化构图做风格重构。 |
@@ -321,16 +333,19 @@
 | stackchan-mcp | `migratorywhale/stackchan-mcp` | 给 AI 一个身体：Stack-chan（M5Stack CoreS3）的 MCP 桥，说/听/看/动/表情全走 MCP |
 | utsuwa | `The-Lab-by-Ordinary-Company/utsuwa` | Grok Companion 的开源替代：一个会陪你学习成长的虚拟 AI 伴侣平台，带日式约会模拟游戏（dating sim）机制，Svelte+Tauri+Three.js。 |
 
-## games/（7个）
+## games/（10个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
+| Claude Code Game Studios | `Donchitos/Claude-Code-Game-Studios` | 一句话描述游戏，Claude Code 问几个问题、写一页 brief，做出可玩的浏览器游戏，再一步步改大改完；含 49 个 agent、72 个工作流 skill。 |
 | 赌场主题 COCOFOLIA APNG 通用地图界面素材 | 官网 www.postype.com | 给 COCOFOLIA（网页跑团平台）用的赌场主题通用地图界面素材，带 APNG 动态效果，免费下载。 |
 | estella | `esengine/estella` | 快速 2D 游戏引擎：TypeScript SDK + C++/WASM 内核 + 可视化编辑器，一键发布 Web/桌面/微信小游戏/原生移动端。 |
 | kaleidoscope-rp | `sebastianevan200-stack/kaleidoscope-rp` | 万花筒角色扮演：LLM 驱动的随机叙事小项目 |
 | llm-nursery | `tsuru0805/llm-nursery` | LLM 驱动的育儿模拟器小游戏，纯标准库实现 |
 | OpenGame | `leigest519/OpenGame` | Open Agentic Coding for Games：用 agent 化方式做游戏的开放项目。 |
+| pixelfx | `patch-gg/pixelfx` | 244 个像素风特效，每一个都是一小段代码，附 Claude Code skill 教你自己做。 |
 | soonfx | `soonfx-engine/core` | TypeScript 游戏数值引擎：RPG/策略游戏的公式解析、战斗模拟、表达式计算，零依赖类型安全。 |
+| universal-modder | `rehan-remade/universal-modder` | 指着你拥有的任何 PC 游戏，让 AI coding agent 给它做 mod：侦察、逆向、生成素材、发布分享。 |
 | usagi | `brettchalupa/usagi` | 简单的 2D 游戏引擎：Lua 脚本、热重载、跨平台导出，Rust 内核，走 LÖVE/PICO-8 的快速原型路线（GitHub 为镜像，主开发在 Codeberg）。 |
 
 ## marketing-growth/（4个）
