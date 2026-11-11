@@ -77,7 +77,6 @@
 | Flash4Start Light | `Buantum/flash4start_light` | 照片转梵高《星月夜》风格油画 SVG 的 agent skill，含可复用 skill 与真实出图示例。 |
 | GC Minimal Zine Poster | `LiamGvchi/gc-minimal-zine-poster` | 将照片转换成极简、留白充足、带手绘二创元素的 Zine 风格海报。 |
 | Heytea Style | `Hchen1218/heytea-style` | 把生活照片做成"真实物件 + 儿童简笔画 + 歪扭手写字"的竖版海报。 |
-| Huashu Bird Sticker | `alchaincyf/huashu-bird-sticker` | 花叔用 Claude Code 和 Codex 把全球现存 11064 种鸟全部画成风格统一的贴纸并开源。 |
 | Kodak 2383 Film Look | `N1kO724/kodak-2383-film-look` | 面向 ChatGPT、Codex 及兼容 Agent Skills 工具的视觉处理 skill，把照片做成固定 1086×1449 px 纵向胶片印相板：上为原始裁切，下为 2383-inspired 电影印相效果，确定性脚本锁定系列版式。 |
 | Make Photo Stamp Archive | `Dlcccc71913/skill-make-photo-stamp-archive` | Codex skill，把一张或多张照片转化为档案拼接作品：一侧忠实保留原照片，另一侧用暖白纸张与按主体定制的手工图章拼接，带干墨、磨损网点与压力不均等真实手压质感。 |
 | Mono Color | `yanliudesign/mono-color-skill` | 把主题、句子、文章想法、物体或参考照片，转换成原创的单色或受控双色编辑视觉，适合海报、zine、肖像、包装和视觉笔记。 |
@@ -116,7 +115,7 @@
 | AI Video Generation | 官网 inference.sh | 通过 inference.sh CLI 生成 AI 视频，支持 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 等 40+ 模型。 |
 | Anything2Explainer | `Vincentwei1021/anything2explainer` | 输入任意主题，自动生成完整的黑底动态图形解说视频。 |
 | Claude Animated Shorts | `mromidev/claude-animated-shorts` | 55–70 秒竖屏动画故事短片 skill：2D 角色 + 彩色 3D 世界，墨水描边、电影镜头、进行曲配乐与音效。 |
-| huashu-art-motion | `alchaincyf/huashu-art-motion` | 36 种艺术风格、9 种解说语法，用代码让画动起来的艺术动画 skill；与已收录的 huashu-bird-sticker 同作者。 |
+| huashu-art-motion | `alchaincyf/huashu-art-motion` | 36 种艺术风格、9 种解说语法，用代码让画动起来的艺术动画 skill。 |
 | HyperFrames | `heygen-com/hyperframes` | 面向 AI Coding Agent 的开源视频渲染框架。 |
 | Image to Video | `Square-Zero-Labs/video-prompting-skill` | 将静态图片转换为视频的 AI skill。 |
 | 炼云视频 Lianyun Video Skill | `larry-xue/lianyun-video-skill` | 面向 Claude Code、Codex、豆包、Trae 等 Agent 的中文知识视频 packed skill。 |
