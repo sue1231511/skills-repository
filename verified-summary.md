@@ -3,7 +3,7 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 322 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 321 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
 
 ## frontend-design/（60个，含 2 个待确认）
 
@@ -111,7 +111,7 @@
 | Y2K Pop Poster | `koinu32/y2k-pop-poster` | 识别照片主体后，制作高饱和撞色描边、短文字、星芒与波点装饰组成的 Y2K 剪贴海报，提供干净印刷、标准 Y2K、重度复古三档质感。 |
 | ZONE Material Art | `joeyhu1108-maker/ZONE-Material-art` | 把照片与主题转译为原创材料艺术、浮雕与装置方案的 skill。 |
 
-## video-production/（40个）
+## video-production/（39个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -126,7 +126,6 @@
 | claude-animation-skills | `artemnovitckii/claude-animation-skills` | 6 个 Claude Code skill，不用任何实拍素材做 Reels 动画：3D 卡通解说、火柴人、极简线条、3D 地图路线、爆炸视图和折线图。 |
 | digital-human-koubo | `andyhuo520/digital-human-koubo` | 一张照片加一句话，生成带数字人主播、口型同步、字幕和带货包装的口播视频，全程由 AI agent 自动完成。 |
 | editatlas-skills | `EditAtlas/skills` | 让 Claude 等 agent 用 EditAtlas 做真正的视频剪辑工作：剪辑技巧库、成片模板、视觉风格和音效，附可编辑导出。 |
-| huashu-art-motion | `alchaincyf/huashu-art-motion` | 36 种艺术风格、9 种解说语法，用代码让画动起来的艺术动画 skill。 |
 | HyperFrames | `heygen-com/hyperframes` | 面向 AI Coding Agent 的开源视频渲染框架。 |
 | Image to Video | `Square-Zero-Labs/video-prompting-skill` | 将静态图片转换为视频的 AI skill。 |
 | 炼云视频 Lianyun Video Skill | `larry-xue/lianyun-video-skill` | 面向 Claude Code、Codex、豆包、Trae 等 Agent 的中文知识视频 packed skill。 |
