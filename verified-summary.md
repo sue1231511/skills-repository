@@ -3,7 +3,7 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 613 个正式条目（含 1 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 612 个正式条目（含 1 个待确认），另有 notes/ 2 个备忘文件不计入。
 
 ## frontend-design/（108个）
 
@@ -546,7 +546,7 @@
 | Skill | 仓库 | 备注 |
 |---|---|---|
 
-## tools/（11个）
+## tools/（10个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -556,7 +556,6 @@
 | Codex-Dream-Skin | `Fei-Away/Codex-Dream-Skin` | Codex 终端换肤工具，多套主题皮肤一键切换 |
 | deobf | `memcpython/deobf` | 让 agent 真凭实据地做混淆还原：恢复格式、可复用的解码器、指令语义与控制流，恢复不了的就明确标为未解决而不是编故事。 |
 | ebook-treasure-chest | `jbiaojerry/ebook-treasure-chest` | 电子书下载宝库索引：多平台书源导航与检索 |
-| Melody Cursor | 官网 ko-fi.com | 卷鹅仔uki 画的像素风动态鼠标指针包，Windows 用，免费下载。 |
 | No Negative Echo | `LB623/no-negative-echo` | 一个安装工具/脚本，用于安装 no-negative-echo 项目。 |
 | scrcpy | `Genymobile/scrcpy` | 安卓投屏到电脑并反向操控的开源神器，免 root |
 | 说说 | `rcy1314/echo-noise` | 一个偏轻博客 / 说说流的个人碎片记录系统，适合发短内容、日常想法、备忘和轻量公开笔记。 |
@@ -712,4 +711,4 @@
 
 ---
 
-*最后更新：2026-11-14（按仓库实际文件逐项核对；2026-11-14 清理 17 条后重生成）*
+*最后更新：2026-11-14（按仓库实际文件逐项核对；2026-11-14 清理 melody-cursor-windows 后重生成）*
