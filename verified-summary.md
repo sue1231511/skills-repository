@@ -3,9 +3,9 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 630 个正式条目（含 5 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 613 个正式条目（含 1 个待确认），另有 notes/ 2 个备忘文件不计入。
 
-## frontend-design/（116个，含 2 个待确认）
+## frontend-design/（108个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -26,8 +26,6 @@
 | brand-fit-design | `mohamed-khaledes/brand-fit-design` | 轻量灵感驱动的前端设计 skill：先找灵感再动手，让 AI 做出贴合品牌调性的界面而非模板脸。 |
 | bureau | `acf1210/bureau` | 让 agent 像一整个设计工作室那样工作：创意指导、美术指导、排版、动效、无障碍与性能，再加一个会说不的对抗性评审。 |
 | Claude Design | `jiji262/claude-design-skill` | 面向 Claude Code、Codex 等 Agent 的界面设计技能集合，用于生成更完整、更有设计约束的网页、原型和视觉页面。 |
-| Coss | `cosscom/coss` | 面向 React 的现代组件体系，提供统一的组件、间距和视觉层级规范，可作为 Agent 生成界面时的组件基础。 |
-| Cue | 官网 cuedesign.space | ⚠️ 待确认；创始人兼设计师人工挑选的 UI 组件参考库，主打官网首屏（Hero）、动画和交互效果，每个组件附一条可以直接丢给 AI 编程工具的 Prompt。 |
 | dashboard-design | `CrimsonEarth/dashboard-design` | 免费的仪表盘 agent skill 包：三个入口共用一套流程，做有用、诚实又好看的仪表盘。 |
 | design-differently-skill | `designdifferently/design-differently-skill` | 一句话扫描前端、去掉 AI 味痕迹、修好 UX 并把规则留在仓库里，让以后的提示词也保持干净的免费 skill。 |
 | Design Extract | `Manavarya09/design-extract` | 从真实网站提取配色、字体、间距、动效和视觉语言，并整理为可复用的设计系统资料。 |
@@ -40,7 +38,6 @@
 | dsh-taste-skill | `stevenwang15/dsh-taste-skill` | 把 taste-skill v2 封装成 DeepSeek Harness 原生技能：先定方向、再用真浏览器量测、最后看着自己的截图返工。 |
 | elite-design-director | `khizerahmadchohan/elite-design-director` | Claude Code 前端设计 skill：像创意总监一样设计网站、落地页、看板与组件，并手绘 SVG 标志、插画与图标，专治千篇一律的 AI 味界面。 |
 | experience-design-skill | `Atharva-Git01/experience-design-skill` | 先定界面该怎么被体验再动手：先看什么、什么保持熟悉、动效节奏与标志性瞬间。 |
-| FeralUI | 官网 feralui.dev | ⚠️ 待确认；小型 React 组件库，做有物理效果、好玩的界面元素，用来给产品加一点俏皮和记忆点。 |
 | figma-to-vanilla | `andrewalexeich/figma-to-vanilla` | 把 Figma 设计稿变成可直接上线的响应式网站的 AI agent skill 合集：HTML、CSS 与原生 JavaScript，不套框架。 |
 | Fluid Functionalism | `mickadesign/fluid-functionalism` | 强调“动效是信息而不是装饰”的开源 UI 组件库，通过 spring physics、proximity hover 和状态连续性，让界面动效更自然、更有功能意义。 |
 | form-and-force | `erenthedeveloper0/form-and-force` | 从创意概念到验证代码的 Agent Skill 与 Claude Code 插件：创意指导、界面设计与动效工程一条龙，覆盖 12 个组件家族的 180 个组件。 |
@@ -57,10 +54,8 @@
 | frontend-ui-scout | `ethandacoder1/frontend-ui-scout` | 研究型前端组件发现 skill：先查项目现状，再从 61 个 UI、CSS、组件与动效资源里挑最合适的落地。 |
 | Galaxy Frontend Design | `Galaxy-Dawn/claude-scholar` | 用于生成具有明确视觉方向、可直接落地的高质量前端界面，重点避免常见的 AI 模板感和千篇一律的组件化审美。 |
 | glowup-ui | `avivgerz-hue/glowup-ui` | 给已有应用做 UI 焕新：在保留路由、内容、数据与行为的前提下改进构图、排版、导航与共享组件的 agent skill。 |
-| GSAP + Framer Scroll Animation | `orlandobeans/skills-for-CLAUDE-CODE` | 面向长页面与产品展示站的滚动动画 Skill，覆盖 GSAP ScrollTrigger 与 Framer Motion 的常见滚动交互模式。 |
 | GSAP Skill | `greensock/gsap-skills` | GreenSock 官方出品的 AI Skill，教 AI coding agents 正确使用 GSAP（GreenSock Animation Platform）。 |
 | Hallmark | `Nutlope/hallmark` | 拒绝 AI 味的设计 skill：50 套主题，给 Claude Code / Codex / Cursor / OpenCode 做不像 AI 生成的界面，还能按名 redesign 和审计。 |
-| HeroUI Pro | 官网 heroui.pro | HeroUI 的付费高级组件与模板体系，覆盖 React 和 React Native，并提供面向 AI 工作流的 Pro Skills / MCP。 |
 | i-see-1px | `EndeavorYen/i-see-1px` | 布局验收 skill：不让 coding agent 在差一像素时就宣称布局已完成，用像素级检查逼它把活干细。 |
 | Image to Code | `OneWave-AI/claude-skills` | 把 UI 截图直接生成可用的前端代码，快速复刻页面。 |
 | Inkra | `inkrajs/inkra` | 一套铅笔手绘风格的 React 组件库：纸张纹理、手写字、笔触线条和淡彩，底下用真正的语义化 HTML 处理输入、选择和键盘交互。 |
@@ -77,7 +72,6 @@
 | mobile-app-designer | `chrollo-03/mobile-app-designer` | Claude Code skill：从需求简报到设计系统、iOS 与 Android 界面、可点击原型、图标与设计检查，端到端设计一款移动应用，还支持阿拉伯语 RTL。 |
 | mockbird | `misereitor/mockbird` | 四个 skill 联手拦住通用布局：用可交互的 HTML 屏幕画布并排看 mockup，让 agent 交出专业级的界面而不是模板货。 |
 | Morphicons | `guillermolg00/morphicons` | 让两个 SVG stroke 图标自动计算形状对应关系并生成平滑 morph 动画，例如菜单变关闭、播放变暂停，不需要手动画逐帧。 |
-| Motion Sites | `nomaan5541/motionsites-prompt-collection` | 177+ AI 网页设计提示词模板，专为 React + Tailwind CSS + Framer Motion 优化，复制即可使用。 |
 | Motion Web | `feitangyuan/motion-web` | 一个面向 Agent 与前端开发者的动效与创意网页工程体系。 |
 | MotionSites Web Builder | `Motionsites-AI/claude-skill` | 免费 Claude skill，让 Claude 做出影院级、获奖水准的落地页，而不是千篇一律的 AI 版式。 |
 | Animations | `mthines/agent-skills` | 从工程角度选择 CSS、Web Animations API、Motion 或 React Three Fiber，兼顾动效质量、性能与感知速度。 |
@@ -123,15 +117,12 @@
 | website-excellence | `Atharva-Git01/website-excellence` | 规划、搭建、评审与审计网站与落地页的 Claude skill：结构、文案、信任、转化与性能全覆盖。 |
 | wechat-miniprogram-builder | `chenjin-cmd/wechat-miniprogram-builder` | 微信小程序可视化构建工具 |
 | wensity-skills | `wensity/skills` | 免费的界面设计 skill：排版、布局间距与 UX 文案三个免费 skill，另有 10 个 Pro skill 需付费解锁。 |
-| Yuanpu 源铺 | 官网 yuanpu.cc | 销售带完整前端代码的网站 UI 模板与源码的电商站，主打 "Designed by Humans, not AI"，强调人工设计、避免 AI 生成同质化模板。 |
-| Zero to Interface | `Wanyi4424/zero-to-interface` | 从视觉灵感、参考素材和设计方向出发，逐步整理并推进到可落地的界面设计。 |
 
-## photo-design/（38个，含 2 个待确认）
+## photo-design/（37个，含 1 个待确认）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | 艺术 Skills 索引 | — | ⚠️ 待确认；艺术类 Skills 的索引文件，汇总已验证 18 个、待确认 6 个条目。 |
-| Card Duo | — | ⚠️ 待确认；在公开渠道（GitHub / 主流 Skill 目录）暂未找到明确对应项目。 |
 | ccd-skill | `TRUEJPEG/ccd-skill` | CCD 直闪写实人像提示词 skill：把一张参考图变成 2000 年代 CCD 直闪风格的写实人像提示词，中英双语。 |
 | Culture Fragment Poster Engine | `dacnay816y62-hub/culture-fragment-poster-engine` | 把文化素材整理成可追溯的视觉线索，再转译成品牌 KV、海报、封面与可执行提示词。 |
 | Daily Photo Playground | `luji12/daily-photo-playground` | 将日常摄影照片重构为 3:4 竖版高饱和情绪作品页：暖白外部页面加高饱和内部版心，保留主体海报化、原照片小窗口与纯色几何元素。 |
@@ -169,7 +160,7 @@
 | Y2K Pop Poster | `koinu32/y2k-pop-poster` | 识别照片主体后，制作高饱和撞色描边、短文字、星芒与波点装饰组成的 Y2K 剪贴海报，提供干净印刷、标准 Y2K、重度复古三档质感。 |
 | ZONE Material Art | `joeyhu1108-maker/ZONE-Material-art` | 把照片与主题转译为原创材料艺术、浮雕与装置方案的 skill。 |
 
-## video-production/（79个）
+## video-production/（78个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -247,7 +238,6 @@
 | Video Edit | `6missedcalls/video-editing-skill` | 使用自然语言编辑视频：去除静音、添加字幕、文本叠加、速度调整。 |
 | video-render-qa-gate | `erencalik/video-render-qa-gate-claude` | 在共享低内存机器上防挂死的视频渲染 skill，交付前自动做质量检查。 |
 | Video Shotcraft | `Vincentwei1021/video-shotcraft` | 把 Claude Code 或 Codex 变成动态设计工作室：输入产品，自动完成分镜、动画、音效设计，生成电影级宣传/营销/发布/演示视频。 |
-| 视频分享中源代码合集 | 官网 vcnw137wxpz4.feishu.cn | 一个以“视频分享中源代码合集”为标题的飞书 Wiki 资源入口，用于集中保存视频相关分享里提到的源代码与项目线索。 |
 | videomd | `videomd/videomd` | VIDEO.md 开放格式：把视频按层拆解成模型可读的文档，每个 skill 配 SKILL.md、每段视频配 VIDEO.md。 |
 | viral-shorts-studio | `mis200/viral-shorts-studio` | 把任意产品、品牌或话题变成一套能发、敢发、容易爆的短视频内容包的 Skill，覆盖脚本、标题、封面与变现路径。 |
 | Wan 3.0 Prime Reference to Video | `Samuraigpt/generative-media-skills` | 基于 Wan 3.0 Prime API 的多模态参考素材生成视频 skill。 |
@@ -332,7 +322,7 @@
 | Prompt Optimizer | `Samuel-Shek/prompt-optimizer-skill` | 把你随手写的一句话、一段粗糙需求、一份混杂的 system prompt，改写成可直接复制给任意 AI 使用的终版提示词。 |
 | ste80-humanizer | `Dodaios/ste80-humanizer` | 去掉 AI 写作痕迹、把文字改得像人写的 skill：按维基百科 26 条 AI 写作特征去味，再按 Karpathy 分享的 STE80 方法往简明技术英语靠 80%。 |
 
-## token-optimization/（13个）
+## token-optimization/（12个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -345,12 +335,11 @@
 | model-router | `Atharva-Git01/model-router` | 按任务难度把活派给最便宜的 Claude 模型：小活 Haiku、中活 Sonnet、大活 Opus。 |
 | opencode-free | `Des3uct0r/opencode-free` | 教 agent 用免费免 key 的模型跑 OpenCode：自动故障转移，免费额度用完也不停工。 |
 | Rescue Tokens | `valorisa/Claude-Skills` | 当检测到 rate limit、高上下文或 5+ MCP 加载时自动激活，通过 9 种优化模式防止 token 耗尽。 |
-| thrift | `makavli/thrift` | 一个 Claude Code skill 给每个请求减肥：称一称请求里都带了什么、在你点头后逐项精简，并给任务立几条少发请求的规矩，不装 hook、不收集任何东西。 |
 | thrifty-thinking | `ch1zheo/thrifty-thinking` | 让 agent 只给干巴巴的结果、不讲过程废话的 skill：省输出 token，不降质量。 |
 | token-diet-skill | `dante-sinesi/token-diet-skill` | 省 token 不降性能的 Claude Code skill：给每个请求节食，预期节省量直接画出来。 |
 | tokenwise | `OnurSamett/tokenwise` | 让 Claude 与 ChatGPT 限额用得更久的 Skill，每块工作自动选对模型与推理力度。 |
 
-## methodology/（82个）
+## methodology/（80个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -409,7 +398,6 @@
 | Lighthouse 旅行纪念明信片提示词模板 | — | 将上传的照片制作成一张竖版旅行纪念明信片，保留照片作为唯一内容来源，结合手撕纸边缘、复古旅行插画和邮戳元素。 |
 | mcode-stack | `MiniMax-AI/mcode-stack` | MiniMax Code 团队每天真正在用的工作流与 skill：怎么让 AI 写的代码保持高水准、任务该不该派给子 agent、长命令要等多久。 |
 | minimal-defensive-coding | `dengsmj123-hash/minimal-defensive-coding` | 让防御性代码与真实风险相称的 Codex Skill，专治层层 try/catch 与猜测式兼容层。 |
-| mukhon-skill-pack | `realshahriya/Mukhon-Skill-pack` | 49 个生产级 agent skill 的精选合集：TDD、调试、前端设计、云与安全全覆盖，全部符合规范并经过安全加固。 |
 | no-slop | `memcpython/no-slop` | 用一套规则逼 agent 写代码前先想清楚：读代码、追根因、只改该改的、再验证结果，专治“看起来正确”的代码。 |
 | oil-dev-skills | `oil-oil/oil-dev-skills` | 给 AI 编程 agent 的开发流程：探索、方案、委托、审查、治理五个配合使用的 skill。 |
 | opencode-power-pack | `waybarrios/opencode-power-pack` | 55 个可移植 skill，面向 Claude Code、Codex、OpenCode 1 与 2、Pi：代码审查、安全审计、功能开发、前端设计、MCP 工具、Hugging Face 机器学习/训练。 |
@@ -435,9 +423,8 @@
 | tstack | `t3dotgg/tstack` | Theo Browne 每天用的 agent skills 合集（full-send 等），Claude Code / Codex 可用。 |
 | Vibe Coding 最佳提问方式 | — | 别只说"帮我做个 App"，采用"先调研，再定方案，最后动手"的三步法。 |
 | www-skill | `MishukAdhikari/www-skill` | Agent skill：用 What、Where、Why 三遍讲清一段代码路径、PR、功能想法或技术，并给出未来影响分析。 |
-| Zeejay0 Visual Skill 使用示例 | `Zeejay0/gathered-scenes-zine-skill` | Zeejay0 视觉 Skill 的使用示例：以水墨国风五重塔提示词演示保留主体、弱化构图做风格重构。 |
 
-## ai-tools/（115个）
+## ai-tools/（112个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -496,7 +483,6 @@
 | grok-build | `xai-org/grok-build` | xAI 开源的 coding agent harness 与终端 TUI |
 | herdr | `herdrdev/herdr` | 「编程 agent 们居住的运行时」——Rust 写的终端复用器/工作区管理器，专为多 coding agent 并行编排设计。 |
 | Hermes Agent | `NousResearch/hermes-agent` | Nous Research 的自我改进 agent：内置学习闭环，从经验生成 skill、检索自己的历史对话、用 MEMORY.md / USER.md 跨会话沉淀用户模型。 |
-| HiLLM.Ai | 官网 www.hillm.ai | 正在构建中的下一代智能平台，旨在带来前所未有的 AI 使用体验。 |
 | hired-not-applied | `nishkohli96/hired-not-applied` | 面向求职者的 Claude Code 插件集，从实时信号发现正在招人的公司、解读任意 JD。 |
 | interactive-map-builder | `chekrizh/Interactive-Map-Builder` | 给陌生代码库画一张可离线打开的交互式 HTML 地图：探索架构、跟踪执行流、逐层钻取，帮 agent 与人快速理解代码。 |
 | introflow | `workspace-labs/introflow` | 给项目之外的人讲清楚整个项目：读代码、列出每个窗口与功能，写一份项目介绍。 |
@@ -528,7 +514,6 @@
 | s-bros-skills | `Brosfeer/s-bros-skills` | 面向 Antigravity、Saya 与各 AI 编程 agent 的公开 skill 中心与运维手册。 |
 | saved-recipes-to-cookbook | `grahamgrouphawaii/saved-recipes-to-cookbook` | 把 Instagram 与 TikTok 上收藏的食谱变成一本真菜谱：读文案与作者，还原做法。 |
 | scam-signal | `bishtashish708/scam-signal` | 凭截图、邮件或链接判断“这是不是骗局”的 Agent Skill，用证据而不是感觉下结论。 |
-| security-audit-skill | `gsstharun/Security-Audit-Skill` | 把编码 Agent 变成安全审计员的 Skill，分阶段侦察、覆盖式猎捕、独立验证并输出机器可读的审计结论。 |
 | shiprocket-fulfillment-automator | `prathamjr/shiprocket-fulfillment-automator` | 让 Shiprocket 每日发货自动跑起来的 Claude Code Skill，按你的规则订快递、约取件、下载面单并通知团队。 |
 | simvyn | `pranshuchittora/simvyn` | 用一个网页面板或命令行同时操控 iOS 模拟器、安卓模拟器和 USB 连的真机，也能装成 Agent 的 skill 给 AI 用 |
 | skill-module-report | `djcesar/skill-module-report` | 读真实代码、讲清任意模块或流程的 Agent Skill，输出含技术报告与用户故事的八节文档。 |
@@ -542,7 +527,6 @@
 | tiny-translator | `huangjag/tiny-translator` | 给 agent 用的多引擎轻量级翻译 skill：接管 agent 的翻译工作，省下宝贵的 token。 |
 | tmux-agent-team | `carbonscott/tmux-agent-team` | 在 tmux 里跑一支 Claude Code agent 小队：一位 lead 加若干 helper，各自隔离工作区、共享看板协调。 |
 | todo-skill | `alexisjamet/todo-skill` | 跨项目的 /todo 队列 skill：Claude 干活时先把任务排队，不打断当前工作，还能并行开干。 |
-| TradingAgents | `TauriResearch/TradingAgents` | 基于 LLM 的多 Agent 协作量化交易框架，模拟研究员、分析师、风控、交易员等角色，实现从信息收集到下单执行的全流程自动化。 |
 | trello-manager-safe | `Mufid2225/trello-manager-safe` | 通过官方 REST API 安全管理 Trello 的 AI Agent Skill，写操作需明确确认。 |
 | tri-agent-orchestrator | `abhigyan6/tri-agent-orchestrator` | 协调 Google Antigravity、Claude Code 与 Codex 三个 coding 助手的多智能体编排框架与通用 skill，按阶段发挥各自所长。 |
 | ultraguard | `maxgfr/ultraguard` | 给 agent 的 AI 杀毒 skill：把威胁情报新闻变成 IOC 指标，再扫你的 GitHub、机器与邮箱。 |
@@ -557,11 +541,10 @@
 | X 官方 MCP | 官网 api.x.com | X 官方托管 MCP 服务：把 X 的 200+ API 端点包成 Agent 可调用的工具 |
 | zapier-factory | `zedricedwardc/zapier-factory` | 只读的 Zapier 内部 API MCP 加审计 skill：跨多个登录与客户审计 Zap、运行记录与连接，不改任何东西。 |
 
-## chrome-extensions/（1个，含 1 个待确认）
+## chrome-extensions/（0个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
-| CipherMind | — | ⚠️ 待确认；在公开渠道（GitHub / Chrome Web Store / 主流 Skill 目录）暂未找到明确对应项目。 |
 
 ## tools/（11个）
 
@@ -729,4 +712,4 @@
 
 ---
 
-*最后更新：2026-11-14（按仓库实际文件逐项核对；上一版为 2026-09-22）*
+*最后更新：2026-11-14（按仓库实际文件逐项核对；2026-11-14 清理 17 条后重生成）*

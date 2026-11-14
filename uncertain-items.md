@@ -10,7 +10,7 @@
 
 | # | Skill | 原文件 | 问题描述 | 建议处理 |
 |---|---|---|---|---|
-| 1 | `CipherMind` | `chrome-extensions/ciphermind.md` | Chrome 插件，公开渠道（GitHub / Chrome Web Store）未找到对应项目；2026-11-11 重核：GitHub 同名仓库全是 RAG 应用/加密通信/Steam 游戏，Chrome Web Store 同名 “Cipher Mind” 是名言解谜游戏，均与线索“AI 浏览器自动化插件”不符 | 需猫猫提供作者或商店链接 |
+已清理（2026-11-14，猫猫拍板：查不到的清掉）：`CipherMind`（`chrome-extensions/ciphermind.md`）已删除。
 
 已解决（2026-11-11）：`AIPlanHub` 真实仓库存在（`HsMirage/AIPlanHub`，165 stars，2026-11-11 仍在更新），旧版“无独立公开仓库，可能是个人主页概念”的说法已证伪，`ai-tools/AIPlanHub.md` 已修正；`Design Mobile Apps` 备选 `nextlevelbuilder/ui-ux-pro-max-skill` 已核实（MIT，147,815 stars），已收录 `frontend-design/ui-ux-pro-max-skill.md` 并恢复为备选链接。
 
@@ -20,7 +20,7 @@
 
 | # | Skill | 原文件 | 状态 |
 |---|---|---|---|
-| 1 | `card-duo` | `photo-design/card-duo.md` | 待确认（2026-11-11 重核：GitHub 与全网均无名为 card-duo 的 skill） |
+已清理（2026-11-14，猫猫拍板：查不到的清掉）：`card-duo`（`photo-design/card-duo.md`）已删除。
 
 已解决（2026-11-11）：`photo-to-minimal-illustration` 已验证（`iamkong/photo-to-minimal-illustration`，MIT，19 stars），`photo-design/photo-to-minimal-illustration.md` 已由待确认翻转为已验证。
 
@@ -88,4 +88,4 @@
 
 ---
 
-*最后更新：2026-11-11*
+*最后更新：2026-11-14（清理删除 CipherMind、card-duo）*
