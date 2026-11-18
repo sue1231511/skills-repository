@@ -3,9 +3,9 @@
 > 本文件汇总所有链接已验证真实有效的 Skill，按分类排列。
 > 仅供快速查阅，详细内容见各分类对应 Markdown 文件。
 > 标注 ⚠️ 的条目为待确认（链接或许可未核实），见 uncertain-items.md；其余均已验证。
-> 共 946 个正式条目（含 1 个待确认），另有 notes/ 2 个备忘文件不计入。
+> 共 1055 个正式条目（含 1 个待确认），另有 notes/ 2 个备忘文件不计入。
 
-## frontend-design/（178个）
+## frontend-design/（193个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -13,6 +13,7 @@
 | 21st.dev | `serafimcloud/21st` | 社区驱动的 React UI 组件库平台，提供高质量、可复用的组件和模板。 |
 | 3d-landing-pages-skill | `thisisshivamtiwari/3d-landing-pages-skill` | 把一家公司的官网或核心优势变成可滚动的 3D 互动落地页的 Skill。 |
 | 3d-website-developer-skill | `aayushmanrajputdev/3d-website-developer-skill` | 用 WebGL、React Three Fiber 与 GSAP 滚动动画搭建 3D 网站的 AI Skill。 |
+| AI Frontend Design Kit | `nuuxcode-arkx/ai-frontend-design-kit` | AI Frontend Design Kit 安装一次之后，AI 编码 Agent 每次新建或改动界面都会按一套设计流程走，不用每次再提醒，任务结束还会交一份写明哪些检查做了、哪些没做的回执。 |
 | ai-frontend-design-workflow | `tantm97/ai-frontend-design-workflow` | 带 AI 编码 Agent 从需求走到可视化设计、再到可运行前端代码的 UI/UX 工作流，含点击批注的设计工作室与审批关卡。 |
 | ai-frontend-skill-packs | `rschuft/ai-frontend-skill-packs` | 给前端 coding agent 的四套互补指导：可用性、WCAG 无障碍、视觉设计与应用安全（OWASP ASVS），按需加载。 |
 | ai-product-design-skills | `dreamyuee/ai-product-design-skills` | 产品设计师日常沉淀的两个中文技能，逐步骤检查产品流程的异常路径，并像产品设计师一样思考。 |
@@ -30,6 +31,7 @@
 | arknights-design | `YoruSakura/ArknightsDesignSkill` | 明日方舟（PRTS 设计）与终末地 UI 的前端设计 Skill：框架无关的设计规范与实现指导。 |
 | atelier-ui | `yashh1323/atelier-ui` | 自适应前端设计 Skill，会先探测仓库、一次问清未定约束，再按项目类型加载对应 playbook，并用真实浏览器像素验收。 |
 | Awesome Design MD | `VoltAgent/awesome-claude-design` | 整理了几十家大厂的 UI 设计规范文档，把复杂的设计系统浓缩成纯文本 Markdown 文件，直接给 AI 就能生成对应的前端代码。 |
+| Awesome Vibe Coding Websites | `liyupi/awesome-vibe-coding-websites` | Awesome Vibe Coding Websites 是程序员鱼皮开源的 Vibe Coding 网站模板库，收录 274 个原创网站模板与 564 个在线演示，每份模板带完整提示词与 DESIGN.md，复制提示词替换变量后贴进 Claude Code / Cursor / Codex 即可复刻同类网站，并可对照不同模型的开发效果。 |
 | Better Web UI Animate | `aladicf/better-web-ui` | 专门用于网页与产品界面的动效设计，强调反馈、层级与状态变化，不做无意义装饰动画。 |
 | beUI | `starc007/ui-components` | 面向 React / Next.js 的动画组件库，组件通过 shadcn registry 以源码形式安装，适合快速给 Vibe Coding 页面补上更自然的交互动效。 |
 | BoardUI | `BoardUI/boardui` | 专门面向 dashboard、数据密集界面和 agentic interface 的 React 设计系统，提供组件、图表、模板与 AI Chat 示例。 |
@@ -39,6 +41,8 @@
 | chromakit | `frankebuka7668/chromakit` | 用 60-30-10 配色组合与二十条去 AI 味规则约束 UI 生成的 Agent Skill，配色先定职责、再过 WCAG 与生产检查。 |
 | Claude Design | `jiji262/claude-design-skill` | 面向 Claude Code、Codex 等 Agent 的界面设计技能集合，用于生成更完整、更有设计约束的网页、原型和视觉页面。 |
 | clean-ui | `hxhuser2003/ui-design-skill` | 把拥挤杂乱的网页 UI 改造成干净、安静、极简风格的 Skill。 |
+| Craftwork Design | `craftwork-design/skills` | Craftwork Design 是一个 Agent 技能，让 Claude Code、Codex、Cursor 等 Agent 搭建的界面看起来像设计过的、而不是生成的，覆盖设计研读（页面类型、设计旋钮、风格家族、典型页面与材料主导型作品的区别）、品味规则（字体、配色、布局、状态、文案、禁用的 AI 味特征），以及从 Craftwork 模板与灵感库取真实参考、按品牌用眼挑字体、锁定一套风格主题并做动效悬停。 |
+| CursorFit | `HusainMain/cursorfit` | CursorFit 先读仓库、按配色、字体、动效、布局与速度五个维度给网站的设计气质打分，再从中挑一个最配的光标样式，并用网站自己的设计 token 把代码写进项目里。 |
 | dashboard-design | `CrimsonEarth/dashboard-design` | 免费的仪表盘 agent skill 包：三个入口共用一套流程，做有用、诚实又好看的仪表盘。 |
 | design-brief | `Blockchain-Oracle/design-brief` | 给编程助手的设计简报技能，不让它凭记忆编界面，而是从 Refero 真实产品找模式、从 21st.dev 取现成组件。 |
 | design-differently-skill | `designdifferently/design-differently-skill` | 一句话扫描前端、去掉 AI 味痕迹、修好 UX 并把规则留在仓库里，让以后的提示词也保持干净的免费 skill。 |
@@ -59,6 +63,7 @@
 | deslop-website | `jdcdtci/deslop-website` | 让网页看起来像人写的、而非 AI 生成的 Agent Skill，附带确定性扫描器，用十七条流程规则与一百一十项检查揪出 AI 味。 |
 | dsh-taste-skill | `stevenwang15/dsh-taste-skill` | 把 taste-skill v2 封装成 DeepSeek Harness 原生技能：先定方向、再用真浏览器量测、最后看着自己的截图返工。 |
 | elite-design-director | `khizerahmadchohan/elite-design-director` | Claude Code 前端设计 skill：像创意总监一样设计网站、落地页、看板与组件，并手绘 SVG 标志、插画与图标，专治千篇一律的 AI 味界面。 |
+| ex-eg-pro-max-skill | `elgoharymd/ex-eg-pro-max-skill` | 让 Claude 像资深产品团队一样工作：艺术指导、产品设计、UI/UX、前端工程、架构、性能与 QA 全流程把关。 |
 | experience-design-skill | `Atharva-Git01/experience-design-skill` | 先定界面该怎么被体验再动手：先看什么、什么保持熟悉、动效节奏与标志性瞬间。 |
 | explain-skill | `alexzcoder/explain-skill` | 用项目真实数据把流水线、模型或算法做成带动画、分步骤讲解的本地网页的 Skill。 |
 | figma-to-vanilla | `andrewalexeich/figma-to-vanilla` | 把 Figma 设计稿变成可直接上线的响应式网站的 AI agent skill 合集：HTML、CSS 与原生 JavaScript，不套框架。 |
@@ -69,10 +74,12 @@
 | frontend-craft | `jaydendavisnc/frontend-craft` | 基于 826 个真实站点、8,917 个标注元素样本做前端设计的 skill，让 AI 按真实站点的度量做界面而不是凭习惯套模板。 |
 | frontend-design-claude-skill | `fatalerror-404-app/frontend-design-claude-skill` | 从理解主题受众到搭建视觉系统再到评审打磨，指导 AI 助手做出有辨识度、有意图的精致网页界面的设计技能。 |
 | frontend-design-pipeline | `yeguang112/frontend-design-pipeline` | 把“做得好看点”变成一条有治理的链路：意图、品牌 DESIGN.md、签署过的规范、冻结 HTML、token 与组件契约、截图验收。 |
+| Frontend Design Skill | `Poom5741/frontend-design-skill` | Frontend Design Skill 是给前端视觉设计用的技能：像一家以每位客户都有独特视觉身份著称的设计工作室的设计总监那样做设计，给出审美方向、字体排版与不落模板俗套的选择。 |
 | frontend-design-skill | `Junaid-PK/frontend-design-skill` | 面向 SaaS 界面的实用 agent skill：教 agent 从用户任务出发，用一套决策框架修掉 noisy 看板、配色打架与含糊操作，做清晰可信的生产级界面。 |
 | frontend-design-skills | `csyxcsyx/frontend-design-skills` | 一套给 Codex 的界面设计与实现技能：ui-ux-pro-max 管信息层级与可访问性，design-taste-frontend 管构图排版与品牌表达。 |
 | frontend-design-studio-skill | `wszrw123/frontend-design-studio-skill` | 视觉优先的前端产品设计与工程 skill：从图片灵感出发定视觉方向，用证据做设计评审，并以真实浏览器做 QA。 |
 | frontend-design-studio | `shd3001/frontend-design-studio` | 一个 DSH 插件加 skill，让 agent 真正会设计前端：读后端仓库、找真实参考、生成 3~4 个真正不同的方向给用户挑。 |
+| frontend-dev-playbook | `BertRepo/bertrepo-skills` | 框架无关的前端交付工作簿：从项目探查、设计还原到组件、接口、状态、无障碍与性能，提供可执行的工作流与验收标准。 |
 | frontend-direction | `paluro-de/frontend-direction` | 给新网页与大幅改版定视觉方向的 Agent Skill，选对视觉主意、保住现有交互，再按窄屏与宽屏双重校验结果。 |
 | 前端效果词典 | `xianxie6/frontend-effects` | 46 个能在卡片里直接上手试的前端动效，每个卡片下面附一段可复制给 AI 的提示词（效果名 + 关键参数），用来准确地跟 AI 说清楚想要什么动效。 |
 | frontend-engineering-os | `Dasprakash-Sekar/frontend-engineering-os` | FEOS 前端工程操作系统：用一组 Claude Code skill 以资深工程师的判断力规划、搭建、改造、迁移与审计前端应用。 |
@@ -80,6 +87,8 @@
 | frontend-ui-scout | `ethandacoder1/frontend-ui-scout` | 研究型前端组件发现 skill：先查项目现状，再从 61 个 UI、CSS、组件与动效资源里挑最合适的落地。 |
 | frontend-ux-motion-skills | `AbdullahNaveed/frontend-ux-motion-skills` | 28 个前端开发、UI/UX 设计与网页动效 Agent Skill，每个都配可直接在浏览器里跑的 HTML、CSS 与 JavaScript 示例。 |
 | Galaxy Frontend Design | `Galaxy-Dawn/claude-scholar` | 用于生成具有明确视觉方向、可直接落地的高质量前端界面，重点避免常见的 AI 模板感和千篇一律的组件化审美。 |
+| generalmind-design | `henrywang-12/generalmind-design` | 让 Claude 产出的页面、看板与文案在排版、配色、间距、动效与语气上都贴合 GeneralMind 的品牌风格。 |
+| ghostless | `oktayyavuz/ghostless` | 让网站与产品 UI 摆脱一眼 AI 味的设计 skill：按顶级工作室水准走完从立意到落地的完整设计流程。 |
 | gis-ui-ux-pro | `ignify-rd/gis-ui-ux-pro` | 为 Web 地图、GIS 仪表盘与地球观测应用做 UI/UX 设计、搭建与评审的 Skill：地图布局、图层图例、配色、时间滑块与无障碍。 |
 | glowup-ui | `avivgerz-hue/glowup-ui` | 给已有应用做 UI 焕新：在保留路由、内容、数据与行为的前提下改进构图、排版、导航与共享组件的 agent skill。 |
 | GSAP Skill | `greensock/gsap-skills` | GreenSock 官方出品的 AI Skill，教 AI coding agents 正确使用 GSAP（GreenSock Animation Platform）。 |
@@ -125,6 +134,7 @@
 | pmas | `randy-rebucas/pmas` | 按专业移动应用 UI/UX 与生产标准设计、搭建、审计与改进移动应用的 Skill。 |
 | premium-design-infinis-skill | `myktybayevdau-dotcom/Premium-design-infinis-skill` | 可复用的 Codex 前端技能合集：设计方向、排版、布局、动效、3D、无障碍、性能与反模板评审，另附一个 CC BY 4.0 的 unslop 审计 skill。 |
 | product-design-critique-coach | `tawfikmanham/product-design-critique-coach` | 用截图评审数字产品 UX/UI、可随身携带的 Agent Skill，帮评审者给出更有用的反馈。 |
+| prototype-to-code | `BertRepo/bertrepo-skills` | 把 Figma、墨刀、MasterGo、即时设计等设计稿链接或截图还原成前端页面的 skill，只走官方结构化数据或授权导出通道。 |
 | quiet-axis | `dream120526-create/quiet-axis` | 为 Web、iOS、Android 与桌面端设计并搭建逻辑清晰、沉稳精致的界面的通用 UI 设计 Skill。 |
 | Rare UI | `swamimalode07/rare-ui` | 主打「少见」动效的 React 组件集合，偏 Apple 风的毛玻璃、弹簧手感，每个组件一个文件，复制进项目后代码归自己。 |
 | raudesign | `r0bledas/raudesign` | 以严格的高对比单色、零膨胀规范约束仪表盘与网页 UI/UX 设计的 Skill。 |
@@ -132,6 +142,7 @@
 | React Bits | `DavidHDev/react-bits` | 开源免费的 React 动画交互组件库，140+ 炫酷组件，即选即用。 |
 | React Native Elements | `react-native-elements/react-native-elements` | 给 React Native 写 App 用的现成界面零件：按钮、卡片、输入框、头像、开关、列表等，一份代码同时用在 iOS 和安卓，也能跑在网页上 |
 | Refero Styles | `fidgetcoding/refero-design-mcp` | 约 200 套 curated 设计系统的自然语言搜索库，每套包含完整的 DESIGN.md 文件。 |
+| reflection-skill | `i-smiling-buddha/reflection-skill` | 以干净重建（clean-room）方式研究任意网站或应用并复刻重做：证据标注的调研、构建规格、一致性校验与打磨循环。 |
 | reka-rupa | `drnhsproject/reka-rupa` | 像资深 UI/UX 设计师一样工作、再写成代码的 Agent Skill，动手前先读项目规则、按给定设计还原并自查。 |
 | restyle | `sazzadh88/restyle` | 参照一个网站的设计语言、为用户自己的业务重建全新静态网站的 Skill。 |
 | rossark-motion-skill | `rossark0/rossark-motion-skill` | 把任意 SVG 变成专业级 60fps 动画：会动的脸、全身表演、整场演出。 |
@@ -157,7 +168,9 @@
 | ui-craft | `CheshireMew/ui-craft` | 面向网页、桌面和移动产品的 Agent Skill，用于参考驱动的界面构建、全面审查和交互打磨。 |
 | ui-design-composer | `taigeerniubi/ui-design-composer` | 为 Codex 准备的 UI 设计 Skill，按任务明确布局、配色与中英文字体，并补齐组件从点击到成功、失败与恢复的全部状态。 |
 | ui-design-craft | `irfandemir00/ui-design-craft` | 用常驻 UI 设计规则与跨平台手艺 Skill 约束编码 Agent 界面输出的 Antigravity 插件。 |
+| UI Design Quality Toolkit | `pengchengwanli2024/ui-design-quality-toolkit` | UI Design Quality Toolkit 把界面设计、项目设计规范、现代 Web 实现与真实验证连接起来，适用于新页面、已有项目 UI 改版，以及需要同时关注交互、兼容性、性能和无障碍的前端优化。 |
 | ui-design-references | `2353309327-prog/ui-design-references` | 新建或明显改版网站、应用页面与组件时，参考指定设计灵感、页面范例、代码实现与图标资源的中文 UI 设计 Skill。 |
+| ui-diff | `davidamunga/ui-diff` | 把 PR 改动可视化：渲染受影响页面的前后截图做像素对比并给出 UX 摘要，让评审先看界面变化再看代码。 |
 | ui-frontend-kit | `booksiyi777-678/ui-frontend-kit` | 面向 Codex/Cursor 的 UI 前端元技能包：按决策树决定唤起哪个嵌套 design skill、打开哪个参考站或直接用提示词开干。 |
 | ui-harmony | `suneettipirneni/skills` | 按完整 UX 工作流与原子设计路由打磨界面的 Skill。 |
 | UI Implementer | `MadAppGang/claude-code` | 面向 Coding Agent 的 UI 实现 Skill，重点是从参考图、设计稿或现有视觉系统出发，完成高保真前端实现，并通过截图与视觉比对反复校准。 |
@@ -177,6 +190,7 @@
 | unslopovich | `erkamyaman/unslopovich` | 像医生一样会诊应用的 AI 味问题：基于 10 万多条 App Store 评论总结出真正让用户反感的设计毛病并逐条开处方。 |
 | VeyUI | `Choy0X/VeyUI` | 设计驱动的 UI/UX skill：先研究参考资料，给出三个可选设计概念，选定后再落到实现，支持 Claude Code、Codex、Cursor 等多个 agent。 |
 | visant-skills | `pedrojaques99/visant-skills-public` | Visant 团队的 Claude Code skill：界面决策、动效、文案、UI 反套路审计和视频粗剪，检测器是可执行的脚本，附测试验证每条规则。 |
+| Visual 3D Forge | `LucasDevKid9/visual-3d-forge` | Visual 3D Forge 把参考图（设计稿、草图、多视图、实物照片、爆炸图或 3D 模型）与一句需求编译成能双击打开的三维网页，先建立内在分析模型（意图解码、参考解构、构件树、尺度表），再按算法图谱装配几何、材质、光照、运动与交互，最后按验收清单自检交付。 |
 | Watermelon UI | `WatermelonCorp/watermelon-platform` | 开源 React UI 平台，提供交互型组件、Blocks、Dashboard、Templates 和 Showcase，可直接参考或接进实际项目。 |
 | wcag-audit-skill | `mintwork/wcag-audit-skill` | 按 WCAG 2.2 分阶段审计界面无障碍问题并修复的技能，含静态源码扫描、真实浏览器扫描与可机读的报告。 |
 | Web Animation Skills | `iart-ai/web-animation-skills` | 前端动画 Skill 集，重点覆盖 Framer Motion、CSS 与常见产品微交互。 |
@@ -187,6 +201,7 @@
 | website-excellence | `Atharva-Git01/website-excellence` | 规划、搭建、评审与审计网站与落地页的 Claude skill：结构、文案、信任、转化与性能全覆盖。 |
 | wechat-miniprogram-builder | `chenjin-cmd/wechat-miniprogram-builder` | 微信小程序可视化构建工具 |
 | wensity-skills | `wensity/skills` | 免费的界面设计 skill：排版、布局间距与 UX 文案三个免费 skill，另有 10 个 Pro skill 需付费解锁。 |
+| zee-frontend-design-skill | `zeshanamindev-hub/zee-frontend-design-skill` | 资深设计总监式的前端设计工作流：研究先行、逐节搭建高辨识度、高级感、非模板化的页面与视觉作品。 |
 
 ## photo-design/（37个，含 1 个待确认）
 
@@ -230,11 +245,12 @@
 | Y2K Pop Poster | `koinu32/y2k-pop-poster` | 识别照片主体后，制作高饱和撞色描边、短文字、星芒与波点装饰组成的 Y2K 剪贴海报，提供干净印刷、标准 Y2K、重度复古三档质感。 |
 | ZONE Material Art | `joeyhu1108-maker/ZONE-Material-art` | 把照片与主题转译为原创材料艺术、浮雕与装置方案的 skill。 |
 
-## video-production/（109个）
+## video-production/（115个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | 3d-video-studio | `codewithsiddique-04/3d-video-studio` | 完全用代码（three.js）制作 3D 动画卡通竖版短片的 Claude Code Skill。 |
+| academic-video-scriptwriter | `koolkao/academic-video-scriptwriter` | 为学术与科普视频写观众能跟上的脚本：教学计划、TTS 可直接念的旁白与分镜，贴合研究内容。 |
 | ai-anime-series | `10291124jcjc-dotcom/ai-anime-series` | 固定几个原创角色、一句话出一集的 AI 动画单元剧完整流程：角色设定、宫格故事板、视频提示词和成片检查脚本齐全。 |
 | ai-clipping-skill | `social-media-skills/ai-clipping-skill` | 用 AI 把长视频剪成短视频切片的 Skill。 |
 | AI Image Generation | `Samuraigpt/generative-media-skills` | AI 图像生成与编辑 skill，支持多种主流模型。 |
@@ -273,8 +289,10 @@
 | effectcraft-motion-skills | `kasfulk/effectcraft-motion-skills` | 把 JSON 规格转成 9:16 竖版动效视频 MP4（或 3:4/4:5/1:1 轮播图 PNG）的 skill：校验场景、建项目、生成 contact sheet 再渲染。 |
 | fullcut-studio | `sf-ryanyan/fullcut-studio` | 自动剪辑 skill：给它一文件夹原始素材，拿回剪好的成片与一份可以改的剪辑清单，面向 Claude 与其他 coding agent。 |
 | fullgrade | `sf-ryanyan/fullgrade` | 视频自动灯光与色彩校正 skill：把调色流程交给 Claude，一键给成片做光线与色彩修正。 |
+| FY Code Animation | `FYZB2020/dsh-fy-code-animation` | FY Code Animation 是一个 DeepSeek Harness 插件，把中文文案变成成品 MP4，用的不是时间轴、而是代码：Agent 写 HTML/Canvas 动画，再逐帧渲染出来，不用 GPU、不用月费、不用按帧付费，每一帧都是在你自己机器上跑出来的。 |
 | gifcensor | `miguel-vila/gifcensor` | 遮住 GIF 录屏里的隐私区域并检查遮挡是否全程有效的技能，含把 GIF 转成视觉模型可精确读取的图片的脚本。 |
 | google-flow-video-image-generator | `jenny-gecglr/google-flow-video-image-generator` | 驱动已登录 Chrome 的 Google Flow，按提示词文件批量生成带编号的 4K 图片与 1080p 视频并核查缺漏的 Skill。 |
+| 七个把提示词推进到成品的 Grok Bot | 官网 x.com | 这 7 个社区 Grok Bot 能把提示词直接推进到成品视频，按交付物分类：Music Video（歌词转 MV）、TaleForge（故事转漫画）、VidBoi（镜头生成到达芬奇工程）、Shotcraft（产品页拍电影感短片）、Opus Motion（产品链接转动效草稿）、Demo Video（App 演示片）、Prompt Director（七个专项角色合写镜头提示词，不直接出片）。 |
 | h3-colab-studio | `Rea1Felix/H3-colab-studio` | MiniMax H3 口播转视频工作室的 agent skill 与插件：把多镜头故事桥接到 Google Colab G4（ComfyUI）渲染，队列与提示词草稿常驻可控。 |
 | higgs-remake-skills | `xwen111/higgs-remake-skills` | 学习高质量 AI 社媒视频的设计与复刻流程：用自己的 AIGC 素材做动效、包装、合成与剪辑。 |
 | HyperFrames | `heygen-com/hyperframes` | 面向 AI Coding Agent 的开源视频渲染框架。 |
@@ -316,6 +334,7 @@
 | settled-frames | `rasarafi/settled-frames` | 让 Claude 看录屏与产品演示不错过迟加载内容：把视频拆成帧，逐帧看完再下结论。 |
 | short-taker | `bannani/short-taker` | 把长视频交给 Claude 挑最佳时刻、用 ffmpeg 切成 9:16 竖版短视频的 Skill。 |
 | shorts-studio-skill | `alifmahmudashik/shorts-studio-skill` | 做病毒式动画科普短视频的 Claude skill：逐词字幕、搞笑故事公式、持续移动的镜头。 |
+| Site Clip | `skyeyesec333/site-clip` | Site Clip 是一个 Claude Code 技能，把网页、滚动故事或 WebGL/three.js 场景录成流畅的无缝循环视频，给作品集或项目页用：shot.json、定住时钟的无头 Chrome、动态模糊、循环、H.264 加 AV1 加 WebP 海报、隐私检查。 |
 | site-to-reel | `DAWAS00/site-to-reel` | 把真实网站转成竖版宣传短片的 Claude Code Skill，用实拍画面与确定性渲染逐帧搭建影片，每阶段都经过人工确认与质检。 |
 | Skillry Opus 5.5 Videos | 官网 skillry.dev | Skillry 收集的 Claude Opus 5.5 视频作品案例库。 |
 | SRT Remotion Video | `YangAgent/remotion-video-skill` | 从 SRT 字幕出发，让 Agent 自动完成 Remotion 项目初始化、分镜生成、场景组件编写、注册校验与最终视频渲染。 |
@@ -338,13 +357,15 @@
 | video-render-qa-gate | `erencalik/video-render-qa-gate-claude` | 在共享低内存机器上防挂死的视频渲染 skill，交付前自动做质量检查。 |
 | Video Shotcraft | `Vincentwei1021/video-shotcraft` | 把 Claude Code 或 Codex 变成动态设计工作室：输入产品，自动完成分镜、动画、音效设计，生成电影级宣传/营销/发布/演示视频。 |
 | videomd | `videomd/videomd` | VIDEO.md 开放格式：把视频按层拆解成模型可读的文档，每个 skill 配 SKILL.md、每段视频配 VIDEO.md。 |
+| vintage-documentary | `kairo-labs-ai/vintage-documentary` | 把旁白音频、脚本与真实档案照片做成复古证据板风格纪录片 MP4：打字机标签、红笔批注、印章与故障标题俱全。 |
 | viral-shorts-studio | `mis200/viral-shorts-studio` | 把任意产品、品牌或话题变成一套能发、敢发、容易爆的短视频内容包的 Skill，覆盖脚本、标题、封面与变现路径。 |
 | Wan 3.0 Prime Reference to Video | `Samuraigpt/generative-media-skills` | 基于 Wan 3.0 Prime API 的多模态参考素材生成视频 skill。 |
+| watchout | `farizanjum/watchout` | 把长播客、访谈或喜剧节目切成审过片的竖屏短视频：说话人感知取景、词级 Hinglish 字幕、可加水印。 |
 | yesterlore | `metrospeed/yesterlore` | 带 AI 走完一集 PS1 风格历史短视频全流程的 Agent Skill，从考据脚本到 Blender 渲染都有现成管线与角色资产。 |
 | youtube-shorts-automation | `asjadfar/youtube-shorts-automation` | 从选题到上传复盘全程自动化的 YouTube Shorts 制作 Skill，为儿童学习频道一次跑通 60 秒课程短片。 |
 | zobvia | `zobaerio/zobvia` | 看一段视频学会它的剪辑风格、再把 SRT 转成同风格成片的 Claude Skill。 |
 
-## creative-visual/（36个）
+## creative-visual/（42个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -355,11 +376,14 @@
 | Answer me with HTML | `QingYunA/answer-me-with-html` | 用一页能读的 HTML 回答复杂问题，配图表解；中英双语 README。 |
 | bio-mechanism-figures | `molbird/bio-mechanism-figures` | 生成、修订并科学核查生物分子与细胞机制插图的 Skill：来源可溯、配图可复核。 |
 | blockout-to-real | `gokayfem/blockout-to-real` | 把灰盒 3D 场景变成带真实 PBR 材质与灯光的同一场景：先想象一张定机位照片，再把观感写回每个物体的 UV 贴图与灯光。 |
+| blueprint | `intincrab/blueprint` | 让 Claude 把一个机械原理画成维多利亚专利图纸风的动画讲解：零件逐个出现、编号引线、环环相扣。 |
 | carousel-skills | `Illyism/carousel-skills` | 把文章、PDF、研究与每日新闻变成 X、LinkedIn、TikTok 与 Instagram 轮播图与幻灯片的技能组。 |
 | claude-animate-skills | `maverickmaltin/claude-animate-skills` | 六个 Claude skill，什么都能做成动画：敲一条斜杠命令，出一支 1080×1920 的竖屏视频。 |
 | code-animation-prompts | `XiaoyeCodes/code-animation-prompts` | 341 种代码动画风格提示词、196 张参考静帧与离线挑选器，封装成 Claude Code / Codex skill，支持一键导入与 HTML 视频渲染。 |
 | commit-rings-skill | `KMnO4-zx/commit-rings-skill` | 把一个仓库的 Git 历史长成一片可以拨动、回放与探索的交互式年轮可视化，输出单个 HTML 文件。 |
 | creative-motion-engineer | `MADHacker912/creative-motion-engineer` | 面向 AI 编程 agent 的通用创意制作 skill：动态图形、3D 实时体验、电影级视频与创意前端。 |
+| dioramap | `omlahore/dioramap` | 把地球上任意地点画成像素风等距立体透视画：白天黑夜可切，用开放地图数据生成，无需 API Key。 |
+| Figure Rig | `skyeyesec333/figure-rig` | Figure Rig 是一个 Claude Code 技能，让静态 3D 雕塑动起来：图生 3D 工具（如 Meshy）给你的是一尊雕像——一个融合网格、站在图片里的姿势、常常还带展示底座与贴身道具，而自动绑定工具要的是干净 T 姿势，对它无能为力。 |
 | Hand Drawn Character Creator | 官网 gist.github.com | 基于种子的程序化生成手绘风格 2D 角色，结合 Canvas2D 笔刷引擎与 Three.js 绑定 rig，实现眨眼、视线跟随、庆祝动画等交互效果。 |
 | handdrawn-skill | `duy211099/handdrawn-skill` | 让 Claude 把任何东西画成墨水加马克笔手绘风 SVG、PNG 或小动图的 Claude Code Skill。 |
 | hardware-lab | `lulouise/hardware-lab` | 把任意一件硬件变成新手可视化课程的 Agent Skill，3D 标注、动手实验与路线图一应俱全，中英双语都能讲。 |
@@ -369,11 +393,13 @@
 | insight-charts | `Leon-S-7211/insight-charts` | 研报级图表 Agent Skill：两套主题、七个 matplotlib 画法，教智能体在对的时机放一张一眼能读出结论的图，打包成 Claude Code 插件与 DeepSeek Harness 插件。 |
 | instagram-carousel-design-system | `erencalik/instagram-carousel-design-system-claude` | 把一次简短品牌访谈变成可复用的轮播图设计规范，再渲染出像素校验过的 1080×1350 图片。 |
 | lego-3d-voxel | `liangdabiao/lego-3d-voxel` | 把一个真实的 3D 模型（GLB）按层切开，变成逐层可拼的积木模型，输出每层铺什么砖、什么颜色的体素数据，再接积木引擎装配成可旋转、可拆装的成品页。 |
+| lora-studio | `emperorofrome13/lora-studio` | 本地运行的 Stable Diffusion / ComfyUI LoRA 工具箱：LoRA 库管理、Civitai 浏览与提示词整理，图片不出本机。 |
 | motionproof | `producoestiagopaulino-source/motionproof` | 把动态视频变成可度量、可验收成片的 Agent Skill，用 DOM 与像素关卡校验可读性、对比度与安全区，而非凭形容词。 |
 | nano-banana-pro-skill | `gustavo-henriq/nano-banana-pro-skill` | 通过自己的 Gemini 网页会话调用 Nano Banana Pro 生成与编辑图片，agent 写提示词、看结果再迭代。 |
 | painter-skill | `ninjasweb/painter-skill` | pAInter：用代码作画的 agent skill，以 WebGPU 笔触、颜料混合与绘画习作画出场景，还能导出动画 MP4。 |
 | paper-roadbook | `aprillllllw/paper-roadbook` | 把一趟旅行做成可旋转的 3D 纸雕路书交互网页的 AI Skill。 |
 | Create Photo Flipbook UI | `HaichaoLihc/create-photo-flipbook-ui` | Codex skill，将拍摄的照片转换成具有表达力的 photobooks（相册），使用自带的 **2D Book** runtime（bundled runtime）。 |
+| QuadMotion | `LiquidRing/quadmotion` | QuadMotion 是给终端做的活像素小吉祥物，每一帧都是真实文本：Unicode 四分块字符画出的人物会走路、跳跃、踢球、打喷嚏、雨天打伞、睡觉、打字与绊倒，另附一个 Agent 技能，教你的编码 Agent 自己做这种小活物。 |
 | sabotage-motion | `sabotage-dev/sabotage-motion` | 用代码为短视频写动态图形的 Claude Code Skill，场景是时间的纯函数，逐帧由无头 Chrome 渲染。 |
 | stickerforge | `gongnyang/stickerforge` | 一张角色图印出上百张可印刷的透明 PNG 贴纸：Codex 与 Claude Code 通用的 skill，支持插件安装。 |
 | stickman-animation | `Shashank33549/stickman-animation` | 给 AI 编程 agent 的火柴人动画 skill：程序化 2D/3D 角色绑定、反向动力学与镜头。 |
@@ -381,14 +407,17 @@
 | teachable-figures | `ywEdAi/teachable-figures` | 把一节课的论点变成学习者能动手操作的实验：先预测结果、再改原因、读出效果、解释新案例，附渲染示例与校验工具。 |
 | teardown | `elvarofficial/teardown` | 把任意机器变成可拆解的 3D 模拟器：离线 HTML 一页，机器在中间运转，面板读真实数字，点按钮打开正在工作的零件，没人碰时页面自己巡游讲解。 |
 | text-to-handwritten-notes-skill | `yahyaraissouni/text-to-handwritten-notes-skill` | 把文字、PDF 或照片变成手写笔记页的 Agent Skill，能学你自己的笔迹，成品像手机拍的真笔记本或干净的 iPad 页面。 |
+| Visual Study Codes | `kkkkkkkaro-cyber/visual-study-codes` | Visual Study Codes 是一个 Claude 技能：输入斜杠代码加主题，就把主题画成学习图或计划表，共 16 种版式（/blueprint、/roadmap、/handwritten、/decision-matrix、/flowchart、/infographic、/canvas、/layers、/cycle、/diagram、/sketchnotes、/exploded-view、/tree、/timeline、/weekly-plan、/project-planner）。 |
 | vrm-standard-head-workflow | `enwong93-sketch/vrm-standard-head-workflow` | VRM 标准头换肤 skill：用 Tripo 重绘 8K 贴图给现有头部换肤，同时保留原始顶点与 ARKit 52 通道面部表情。 |
 | wiggle-that-diagram | `wan-huiyan/wiggle-that-diagram` | 让“工作原理图”自己动起来解释自己的 Skill，用白板手绘风循环动画讲清一张图。 |
 | zazzy-skills | `zazzygfx/zazzy-skills` | 把自己的设计动起来的 Skill：在 Figma 里做故事板，再做成发布影片或讲解视频。 |
 
-## design-tools/（33个）
+## design-tools/（44个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
+| 60fps | 官网 60fps.design | 60fps 是一个 UI/UX 动效灵感站，收录 2,140+ 个一流 App 的界面动效细节（启动动画、卡片动效、手势交互等），可按动效类型与 App 筛选，每周更新，适合给界面动效找参考。 |
+| AI 姿势参考图库（中文版） | `anhao/ai-pose-gallery-zh` | AI 姿势参考图库（中文版）是原站三大 AI 绘画参考图库（姿势、服装、人像）的中文版三合一合集，共 6,162 条全中文参考数据、12,022 张本地高清图，另有在线演示与 ComfyUI 原生插件。 |
 | Archify | `tt-a1i/archify` | 把任何想法、计划或代码库变成漂亮的交互式架构图。 |
 | aws-architecture-draw | `petervan92/aws-architecture-draw` | Claude skill：按 AWS 官方架构图标规范与指引画 AWS 架构图，用官方图标集，也能当普通 CLI 用。 |
 | Better Design | `marvkr/better-design` | 给 Coding Agent 补上一层可检索、可执行、可复查的设计上下文。 |
@@ -397,22 +426,31 @@
 | Dembrandt | `dembrandt/dembrandt` | 从网页中提取 Logo、颜色、字体、间距、边框、阴影与组件规律，整理为可复用的设计资产和 Design Tokens。 |
 | Design.md Skill | `arumwu/design-md-skill` | 提供大量真实品牌的 design.md / 设计系统参考，让 Agent 按成熟品牌规则做视觉与前端，而不是临场生成一套泛化风格。 |
 | diagram-agent-instructions | `jonasfh/diagram-agent-instructions` | 用 Mermaid、D2 与 Python diagrams 输出专业架构、工作流与基础设施图的通用 agent 指令与技能。 |
+| easy-brand | `rufatalv/easy-brand` | 把现有网站或应用的视觉识别反向工程成有据可依的品牌系统：设计 token、规范、语气与营销模板。 |
 | Emil Kowalski Skills | `emilkowalski/skills` | 一套给设计师和工程师用的 Agent Skills，重点解决 AI 做 UI 时常见的动效审美、节奏、缓动、交互细节和界面质感问题。 |
+| Faithful | `appadmin-oss/faithful` | Faithful 证明做出来的东西跟设计稿一致，面向编码 Agent、设计 Agent 与审阅工作的所有人：设计是一份规格，里面的每个颜色、尺寸、圆角、文案与状态都是定好的，而大多数“跟设计稿对得上吗”的检查，要么是人眯着眼对两张截图，要么是 Agent 说它试过了。 |
 | Frontend Visual QA | `daymade/claude-code-skills` | 用于前端成品的视觉与交互 QA，检查布局、字体、溢出、响应式、组件状态与页面流程，而不只看是否编译通过。 |
 | github-profile-studio | `bilawalbaig8/github-profile-studio` | 用提问、角色卡与配色预览为用户定制插画风、动态 GitHub 主页的 Skill。 |
+| glasskit | `n1th1n-19/glasskit` | 给 KDE Plasma 6 的磨砂玻璃桌面主题：动态顶栏岛、圆角大图标与颗粒开机画面，附一键安装改装 skill。 |
 | Hue | `dominikmartn/hue` | 一个用于生成设计语言 Skill 的 meta-skill，可根据截图、品牌或描述，把字体、颜色、间距、组件和动效规则整理成可复用约束。 |
 | Icon System | `SkillMedev/skills` | 用于建立统一图标语言与导出规范，避免项目中的图标风格、尺寸、描边和圆角各说各话。 |
+| Iconly | 官网 iconly.design | Iconly 是一个图标灵感库，按真实 App、游戏与网站整理图标设计，可浏览各家产品的图标样式，给图标设计找参考。 |
 | image-to-editable-pptx-skill | `Jiale077/image-to-editable-pptx-skill` | 把 JPG、PNG、PPT 截图与 AI 生图重建成可编辑 PowerPoint 的 Skill，打开就能改标题、移卡片、调颜色。 |
 | Impeccable | `pbakaus/impeccable` | 给 AI 一套设计规则，像给初级开发者一本风格指南。 |
 | kf-skill | `fengyale/kf-skill` | 可独立安装的 AI 技能集合，每个子目录就是一个技能，含 YAML 驱动的 PPT 图示生成等。 |
 | kill-ai-slop | `yetone/kill-ai-slop` | AI 写作/视觉痕迹实地指南 + 扫描清除的 Agent Skill，专抓 AI 腔 |
+| Landbook | 官网 land-book.com | Landbook 是一个网站设计灵感画廊，收录大量落地页、模板与作品集案例，可按类型浏览、收藏成板子，是找落地页设计参考的常用站。 |
+| Landdding | 官网 landdding.com | Landdding 是一个灵感类网站设计画廊，每日、每周更新收录的优秀网站设计，可按设计与 AI 分类浏览，也可投稿自己的作品。 |
 | lesson-slide-designer-skill | `chuonglife/lesson-slide-designer-skill` | 把一节课变成教学幻灯片：16:9 的 PowerPoint，配图标、原生图表与讲稿。 |
 | letsrendering | `tianyearch2026/letsrendering` | 给坚持古典建筑的建筑师与小团队的渲染 skill：把空间想法变成清晰可评审的效果图。 |
 | MetalForge | 官网 metalforge.xyz | 面向 SwiftUI 与 React Native 的浏览器 Shader 可视化编辑器。 |
+| Modulify 免费模板 | 官网 modulify.ai | Modulify 免费模板库提供一批可直接克隆的生产级网站模板，覆盖 SaaS、作品集、电商、博客、餐厅等类型，预览后可克隆进自己的 Modulify 面板再改。 |
 | pixso-to-figma-agent | `futuredb/pixso-to-figma-agent` | 规划并检查 Pixso 到 Figma 的迁移：先单帧验证可编辑文字、图层结构与特效，再决定怎么搬。 |
 | powerpoint-agent-skills | `geekfujiwara/powerpoint-agent-skills` | 给 PowerPoint Copilot（智能体模式）用的 skill 合集：统一主题与强调色、把文字改成好懂的图解、减少重复编辑，日英双语。 |
+| Recent | 官网 recent.design | Recent 是一个每日精选的设计灵感站，前身为 Godly，收录网站、界面、品牌、动效等方向的优秀设计作品，带动态缩略图预览，可按媒介与行业筛选，免费浏览。 |
 | rob-janoff-design | `carrapido/rob-janoff-design` | 按 Rob Janoff（苹果 Logo 设计者）的方法做 Logo、图标和字母徽标的 agent skill：先做功课、抽象造型、给三版单色 SVG 方案等客户选，再按黄金比例落曲线。 |
 | scientific-plots | `christopherbarbarie/Scientific-Plots` | 给 matplotlib 换上论文级默认样式、并附一套作图规则的技能，让科学图表干净、清晰、拿得出手。 |
+| sciplotting | `axjing/sciplotting` | 全场景顶刊科研绘图 agent skill：六大类科研配图、标准化配色排版与合规校验，原生适配 Nature / Science / Cell 投稿要求。 |
 | Selene Design Taste | — | 一份从真实项目实战中凝固出来的设计审美档案与强制工作流：让 AI 给用户做任何视觉产出物（宣传页 / 落地页 / 一图流 / 控制台 / APP UI / 教程卡组）时，**先对齐用户的审美基准再动手**，而不是输出训练数据里的默认模板。 |
 | stack-diagram | `caru-ini/stack-diagram` | 一句话描述技术栈，得到带官方 Logo 的架构图：Next.js、Postgres、Stripe 这些组件之间的关系一眼看清。 |
 | start-uml-skill | `GUURUUU/start-UMl-skill` | 教任何 AI agent 用 MCP 开 StarUML 的即插 skill：Mermaid 方言、解析陷阱与验证流程。 |
@@ -423,29 +461,52 @@
 | vizreport | `MagicalYuYu/vizreport` | 用一个零依赖的 HTML 文件做富交互报告的 Claude Code skill，人人可用。 |
 | web-to-design-md | `Paidax01/web-to-design-md` | AI Skill：把任意网站扒成 Stitch 风格 DESIGN.md 设计系统文档 + HTML 预览（DOM 证据优先，支持明暗双主题） |
 
-## ai-prompts/（19个）
+## ai-prompts/（42个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | accept-skill | `Xyronb1/accept-skill` | /accept 命令式 skill：先把提示词澄清到位再动手，且不改变原意，英土双语，也能在 ChatGPT 与 Claude 对话里用。 |
 | AI 图片反推提示词 | — | 通过专业 AI 视觉分析师视角，对图片进行全面拆解分析，提取可复刻的生图提示词，中英文对照输出。 |
+| ai-project-management-prompt-library | `MayerAnnamaria/AI-project-management-prompt-library` | 给 IT 项目经理的 AI 提示词与框架库：立项、计划、风险、汇报、干系人与治理十组可复用的成套模板。 |
+| Awesome GPT Image 2 Prompts | `davidwuw0811-boop/awesome-gpt-image2-prompts` | Awesome GPT Image 2 Prompts 是一个开源的 GPT Image 2 提示词合集，收录 490 条提示词，支持中英文搜索、分类筛选、一键复制与效果图预览。 |
 | awesome-web-prompts | `DexZane/awesome-web-prompts` | Web 开发向的优质 prompt 精选合集 |
+| Bibliotheca | `Shitsuten/Bibliotheca` | Bibliotheca 是人机恋圈子里散落各处的教程与分享的整合索引，来源主要是推特上各位老师的开源分享，内容按 Prompt 工程、记忆系统、能力延伸、前端/UI、综合、API 使用/省钱等分类整理，共收录 40 余条带说明的链接。 |
 | c1-comms | `commahawk/c1-comms` | 把已写好的草稿改写成忙碌的上级一眼能行动的版本 Agent Skill，先给结论、事实与判断分开、数字落到决策上。 |
+| ChatGPT Images 官方生图流程 | 官网 x.com | 这条方法帖编译自 OpenAI 帮助中心《Images in ChatGPT》，讲清 ChatGPT Images 的官方流程：先选模板，再让 AI 追问补齐细节，核心是编辑时要改哪一块，就得把那块写进提示词。 |
 | Chief Work Buddy 协作原则 | — | 首席工作伙伴协作原则：让 AI 主动补全遗漏、独立判断、持续推进工作的结对协作方式。 |
+| Cinematic AI Prompt Library | `emelsproduction/cinematic-ai-prompt-library` | Cinematic AI Prompt Library 是一个开源的电影感 AI 图片与视频提示词合集，另有工作流与制作技巧，按图片提示词、视频提示词、角色一致性、镜头技巧与文档分目录整理。 |
+| Claude 代码录制产品演示片提示词 | 官网 x.com | 这条提示词让 Claude 用代码录完整支产品演示片，演示视频里的点击、缩放和光标都不是人手录的，技术栈为 Playwright、Chrome DevTools Protocol、Remotion、ffmpeg。 |
 | claude-skills-hristiyaniliev06 | `HristiyanIliev06/claude-skills` | 9 个通用提示词与生产力 Skill 合集：提示词工程、对话审计、文档智能、测试数据生成与项目健康检查。 |
 | copy | `xJohnnyBBadx/copy` | 给 AI 助手以资深编辑与创意总监的判断力，先诊断再改写、核查说法、保留作者声音的文案技能。 |
+| 9 个去 AI 味提示词 | 官网 x.com | 这 9 条写作提示词能把 AI 味的汇报和邮件改得像人写的，用法是把初稿依次贴进下列指令，适用于 ChatGPT / Claude。 |
 | Debug Two Modes | — | 处理报错时的两段式提示词模板：普通版让 AI 直接修；优化版强制 AI "先诊断、后动手"——先追踪完整调用链路定位第一次出错的位置，再区分表层现象、直接诱因、根本原因，给出多套修复方案供人选定后才允许改代码。 |
+| DesignPrompts | 官网 designprompts.dev | DesignPrompts 是一个 UI 设计提示词库，提供 12 种页面模板（SaaS 发布、移动应用、等候名单、开发者工具等）和 48 种外观风格，同一页面可在不同风格下对照查看，每种风格附可复制的提示词。 |
 | deslop | `jchook/deslop` | 写开发者文本时自动套用清晰、经济的散文标准的技能，覆盖注释、文档、提交信息与 RFC。 |
 | fable-5-2-prompting | `sktjgudals/fable-5-2-prompting` | 非官方 agent skill：按 Anthropic 的 Fable 5.2 提示词指南，审计与调优提示词、CLAUDE.md、skill 与 harness。 |
+| 首尾帧插值 | 官网 x.com | 这条方法帖讲清首尾帧插值的做法：上传开头、结尾两张静照，只写中间运镜，让模型补帧，解决单图「让照片动起来」到不了指定结尾的问题，例如产品片最后的商标特写。 |
+| 美食 ASMR 微剧情工作流 | 官网 x.com | 这条工作流用 Midjourney `--cref`（角色锁定）和 `--sref`（风格锁定）固定日式复古厨房与围裙主角，再把静图导入 Kling / Runway Gen-3 做动态，局部动态提示词用英文更准。 |
 | fullprompt | `sf-ryanyan/fullprompt` | 把一句话粗糙想法写成可直接复制的完整 AI 提示词，覆盖 AI 视频、图片、会说话的虚拟形象脚本与故事板。 |
 | Grill-Me | `mattpocock/skills` | 一个无状态、可移植的 Skill，对计划或设计进行 relentless 采访，直到每一分支的决策树都解决，达成共同理解。 |
 | i-have-adhd | `ayghri/i-have-adhd` | 一个阻止 coding agent 把答案埋在废话里的技能：强制行动优先、编号列表、ADHD 友好的输出风格。 |
 | llm-conflict-guide | `yushu0820/llm-conflict-guide` | LLM 吵架指南：如何让大模型停止套话、正面回应 |
+| Lovimg | 官网 lovimg.com | Lovimg 是一个免费 AI 图片提示词库，收录 10,112 条提示词，覆盖 ChatGPT、GPT Image 2、Nano Banana 与 Seedance 2.0，每条提示词附生成效果图，可按模型与用途（产品、肖像、海报、UI 等）筛选，直接复制使用。 |
 | mdh-advanced-humanizer | `MdHashim1011/mdh-advanced-humanizer` | 像细心的编辑一样改写文字的 Agent Skill，保留事实、数字、引用与否定含义，只让行文读起来更自然。 |
+| MeiGen | 官网 www.meigen.ai | MeiGen 是一个免费提示词库，收录 GPT 生图、Nano Banana、Seedance 提示词，按分类浏览，可直接复制使用。 |
+| Muse Video Prompts | `apimodels/muse-video-prompts` | Muse Video Prompts 收录 204 条创作者在 X 上发布过的 Muse 实测视频提示词，每条注明作者与原帖链接，按 13 类筛选（自拍、Vlog、转场、古风、ASMR、电影感剧情等），可搜索、一键复制，另有可浏览的在线版。 |
+| Muse AI 视频工作流空间提示词 | `apimodels/muse-video-prompts；再加一个模板句式区，沉淀镜头简报、运动模式、视听工作流的复用模板。` | 这条提示词能在 Muse 里搭一个「AI 视频工作流空间」，从一句话想法出发，一路走到可发布的成片，整个过程都在一个空间里完成，不用跳出到别的工具。 |
+| My Prompt Library | `Homesteadnotepade/My-Prompt-Library` | My Prompt Library 是一个 AI 提示词库，核心是一个单文件 HTML 提示词生成器应用（My_Prompt_Generator_No_Delete.html），带搜索、分类、详情查看与复制按钮，内置 50 条图片与视频 starter 提示词。 |
+| Nano Banana 产品静物广告提示词 | 官网 x.com | 这条提示词能把蛋白饮料瓶做成高端商业广告图，3:4 竖构图、水珠冷凝、牛奶漩涡、蓝莓薄荷点缀，配「午夜蓝到琥珀」的渐变背景，改品牌名和道具即可复用。 |
+| OpenNana | 官网 opennana.com | OpenNana 是一个中文提示词图库，可浏览和搜索 GPT Image 2、Nano Banana 2/Pro、Seedance 2.0 等 AI 图片与视频提示词案例，按模型筛选，探索灵感。 |
+| 姿势提示词生成器 | `anhao/ai-pose-gallery-zh），原库` | 这条提示词能在 Muse 里建一个「姿势提示词生成器」，点一张火柴人姿势，分别写出 Seedance 视频、Kling 视频、FLUX 图片、Midjourney 图片四种格式的提示词，每种写清姿势、机位、身体朝向，一键复制。 |
 | prompt-distiller | `obaidaarkan915-debug/prompt-distiller` | 把啰嗦的语音口述提示词蒸馏成干净、简洁、有指向的提示词的 Skill。 |
+| Prompt Library | 官网 www.promptlibrary.pro | Prompt Library 是一个开源提示词库，收录 1,000 条提示词，覆盖软件工程、研究、商业、法律、设计等 10 个领域，提供英文与塞尔维亚语版本，可按分类浏览，中立于模型。 |
 | Prompt Optimizer | `Samuel-Shek/prompt-optimizer-skill` | 把你随手写的一句话、一段粗糙需求、一份混杂的 system prompt，改写成可直接复制给任意 AI 使用的终版提示词。 |
+| PromptHero | 官网 prompthero.com | PromptHero 是一个老牌综合提示词库，可搜索数百万条 Midjourney、Stable Diffusion、Sora 等模型的 AI 提示词，按模型筛选，每条提示词附生成效果图与完整文本，可直接复制。 |
 | reword | `starrybodies/reword` | 从你选定的文字中学习个人文风、再为起草与编辑生成精简文风指南的 Agent Skill，按邮件、消息或长文等不同载体调整写法。 |
 | ste80-humanizer | `Dodaios/ste80-humanizer` | 去掉 AI 写作痕迹、把文字改得像人写的 skill：按维基百科 26 条 AI 写作特征去味，再按 Karpathy 分享的 STE80 方法往简明技术英语靠 80%。 |
+| StyleKit | 官网 www.stylekit.top | StyleKit 是面向 AI 生成网页的设计风格库，提供 151+ 种精选风格，每种风格都附可直接复制的提示词、设计 tokens 与组件配方，可导出到 Tailwind、shadcn 与 AI 编码工具。 |
+| UI Prompt | 官网 uiprompt.art | UI Prompt 是一个 UI 风格提示词模板库，提供 70+ 种 UI 设计风格的完整提示词，每种风格附一个完整站点示例，复制整套提示词即可让 AI 生成对应风格的界面。 |
+| YouMind 提示词库 | 官网 youmind.com | YouMind 是一个免费 AI 提示词库，收录 30,000+ 条精选的图像、视频与网页提示词，可按媒介或模型筛选，每日更新，每条提示词都附完整文本与生成效果。 |
 
 ## token-optimization/（16个）
 
@@ -468,12 +529,13 @@
 | tokenwise-hydersmiling | `hydersmiling/tokenwise` | 用 8 个 Skill 把 Claude Code 的会话组织到中价模型上跑出高价模型效果的 Token 优化系统。 |
 | tokenwise | `OnurSamett/tokenwise` | 让 Claude 与 ChatGPT 限额用得更久的 Skill，每块工作自动选对模型与推理力度。 |
 
-## methodology/（153个）
+## methodology/（168个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | 5th-grade-reading | `stxapps/skills` | 检查、修正或重写文本、让五年级读者也能看懂的 Skill。 |
 | agent-cite-check | `keienhrri-bit/agent-cite-check` | 不调模型核查 AI Agent 报告：引用的原文是否真在对应行、数字能否重算、改动是否越界的中文 Skill。 |
+| Agent Kit | `xBajci/agent-kit` | Agent Kit 是给 Claude Code 与 Codex 用的插件，增加 Agent、技能与钩子，按票一张一张交付需求，每张票都过验证、安全审查与升级机制。 |
 | agent-metaskills | `DancinGhost/agent-metaskills` | 关于 skill 的 skill：教 agent 怎么写、用与管 skill。 |
 | agent-skills-dougcunha | `dougcunha/agent-skills` | 以规格驱动开发套件为核心的技能组，从需求到 PRD、技术规格、任务拆分、执行与评审形成完整流程。 |
 | agent-skills-gethrbr | `gethrbr/agent-skills` | Harbor 的免费 coding agent skill：按代码审计 CLAUDE.md 与 AGENTS.md、按文档检查你的 diff，并把反复出现的 PR 评审意见变成规则。 |
@@ -521,9 +583,12 @@
 | claude-security | `anthropics/claude-plugins-official` | Anthropic 官方代码安全 Skill。 |
 | skill-development | `anthropics/claude-plugins-official` | Anthropic 官方 Skill 开发 Skill。 |
 | claude-skills-taras-spashchenko | `TarasSpashchenko/claude-skills` | 两个 Claude Code skill：ste 按 ASD-STE100 简化技术英语写与查文档，discussion-session 让 Claude 与其他 agent 或人类专家在共享 Markdown 板上轮流讨论并收口。 |
+| claude-skills | `Shadysmetools/claude-skills` | 像运营团队一样跑工程：16 阶段编码流水线，每步签证据台账，配晨报、排程、自愈 KPI 与多智能体技术负责人工作流。 |
+| Claude 口播视频节奏经验 | 官网 x.com | 这 6 条是用 Claude 做口播视频的剪辑层经验，可直接复用：同一样式全片最多出现 2 次；能用举例就不要贴标签；有具体对象就配它自己的声音；人像小窗要跟脸走；每个素材展开后截一张当海报检查重复；先定逐字稿再动画面，避免改一句后面全白做。 |
 | code-review-gate-skill | `kyy-logs/code-review-gate-skill` | 有证据、可审计的代码评审 skill：静态分析打头、四路独立探查、每个发现都附证据，最后输出一道 JSON 合并门禁。 |
 | codefactory | `xor2003/codefactory` | 覆盖 Agent 开发全周期（理解、设计、实现、测试、修复、交付）的可靠编码工厂 Skill 合集。 |
 | Codex 前端工程化工作流 | — | 用 Codex 写前端时，只给模糊需求会出廉价 AI 模板感，根源是让 AI 自己猜审美。 |
+| 编码 Agent 的 7 个零件 | 官网 x.com | 这条方法帖把 Claude Code、Codex、Cursor 拆成同一套结构：循环（the loop）、工具（tools）、系统提示词（system prompt）、输出上限（output cap）、压缩（compaction）、沙箱（sandbox）、子代理（subagents），并画了各部分为什么存在，适合理解「为什么你的 Agent 会忘上下文、会乱改文件」。 |
 | company-valuation-skill | `nikoibadov/company-valuation-skill` | 用 FCFF 现金流折现、可比公司与先例交易给上市公司估值的 Skill。 |
 | contribution-review-skill | `hamster111111/contribution-review-skill` | 按 ARR 式维度审阅 AI/机器学习论文 contribution 表达与增量定位的 Skill。 |
 | cosir | `cosir-io/cosir` | 在动手前先把一项工作定义清楚的 Agent Skill，用上下文、目标、建议、指令与资源五个要素锁死执行的边界。 |
@@ -531,10 +596,12 @@
 | cracked | `nishant-Tiwari24/cracked` | 帮你拿到 offer 的 skill：470+ 家公司的模拟面试、带隐藏测试的笔试和不留情面的简历点评，直接在终端里跑。 |
 | dev-guardrails | `pth-droid/dev-system` | 用业主友好决策、紧凑规格、纵向任务与增量 TDD 开发功能或修 Bug 的开发护栏 Skill。 |
 | Dev Guidelines Skill | `sue1231511/dev-guidelines-skill` | OrangeChat Agent Skill，用于在编码、代码审查、错误处理和技术方案评估时，强制执行统一的开发与协作规范。 |
+| dev-skills | `dca123/dev-skills` | 可移植的工程标准合集：测试取舍、注释取舍、数据形态诚实等原则，让编码 agent 的产出保持一致水准。 |
 | devflow-kit | `chinhkrb113/devflow-kit` | 把 11 个互补 skill 串成一条开发工作流：澄清问题、调研参考、写规格、可视化架构、做交互 mock、实现并验证结果。 |
 | digi4school-summarizer | `jamesstaaa/digi4school-summarizer` | 把自己的 digi4school 电子教材按页码范围或主题总结成 Word 文档的 Claude Code skill。 |
 | docspring-agent-playbook | `DocSpring/docspring-agent-playbook` | DocSpring 与编码 Agent 协作的工程原则、AGENTS.md 模板与工作流技能合集。 |
 | draftt | `tdrugan-web/draftt` | 把产品从原始想法带到可执行 PRD 的 Skill 组合，每条关于用户与市场的断言都标注证据、假设或合成来源。 |
+| Draftward | `athNdev/draftward` | Draftward 是从简报到终稿 PDF 的正式报告技能，帮你起草学术、技术与专业报告，把需求连到章节、把主张连到证据，让每一步都有据可查。 |
 | dual-skills | `gserkankupeli/dual-skills` | 用 Claude 干活、独立 Codex 会话给第二意见或审计结果的双模型协作 Skill（5 个）。 |
 | duipai-skill | `R8Ki0xx/duipai-skill` | 对拍 / 压力测试 skill：自动写暴力解法与随机生成器，定位 WA、RE、TLE 背后的最小反例并解释 bug，覆盖 Codeforces 与 LeetCode。 |
 | dyz-med-paper-skills | `duyunzhoudyz/dyz-med-paper-skills` | 面向中国医生和医学研究生的 32 个 agent skill：选题、PubMed 文献检索、中英论文写作、选刊投稿与审稿修回。 |
@@ -547,11 +614,14 @@
 | grill-with-team | `davidwilde/grill-with-team` | 在 Slack、Discord 或 Teams 群聊里开设计“烤问会”的 agent skill：全员参与、逐项过设计。 |
 | handson | `baov/handson` | 把 AI 变成严格陪练的 Claude Code Skill，只提问、质疑与点评你写的代码，绝不替你写实现。 |
 | haoge-pm-coach | `gxh98/haoge-pm-coach` | 不讲课、只出题追问的产品经理教练 Agent Skill，用你自己的真实材料一次练一个判断，练完留痕并按反馈调整教法。 |
+| Harness Core | `antoniancu/harness-core` | Harness Core 是一套规则与技能，让 AI 编码 Agent（Claude Code、Codex 等）按一个忙碌的人需要的方式干活：保护注意力、把工作背后的硬约束摆出来、一次只问一个问题、让人始终是交付物的作者。 |
 | hedgefund-skills | `ruujOnChain/HedgeFund-Skills` | 六个对冲基金量化 playbook 做成的 agent skill：因子风险、事件研究、仓位 sizing、市场状态识别等，每个都带算数的 Python 脚本与验收检查。 |
 | herdr-improve-skill | `Slone123c/herdr-improve-skill` | 基于 Herdr 终端与 shadcn/improve 的多 agent 协作 skill：代码审计、实现计划与 Git worktree。 |
 | honest-tests | `mintwork/honest-tests` | 让 AI 写出真正验证行为的测试而不是只会通过的假测试的技能，含检测无法失败的测试的 CLI。 |
 | how-to-do-good-research | `menhguin/how-to-do-good-research` | 在模型选课题、设计实验或写论文之前，先指向一小套精选研究建议的 agent skill：选值得做的问题、把结果写成主张与证据。 |
 | human-feedback | `jasonericsiegel/human-feedback` | 让 agent 把计划、报告或 mockup 打开成一页给你审：表情回应加文档批注，再贴回给 agent。 |
+| Humanizer | `OussamaHaddouche/skills` | Humanizer 去掉文字里的 AI 写作痕迹，让读起来像自然的人话，适用于编辑或审阅听起来通用、浮夸、像聊天机器人写的散文。 |
+| humanlike-writing | `ihmorol/humanlike-writing` | 让 Claude 写出像人认真写出的文字：去掉程式化 AI 腔、客套残留与虚假深刻，保留清晰具体的表达。 |
 | improve-skill | `kshaham/improve-skill` | 指定时长、让 AI 编程助手在测试套件保护下持续改进代码库的技能，每项改动都可验证、可提交。 |
 | ineedsilence | `kishormorol/ineedsilence` | 把草稿同时交给 Claude、GPT 与 Gemini 三方评审，再让它们互相辩论到没话说，最后只把达成一致的版本还给你。 |
 | intentweft | `ufodia/intentweft` | 把项目意图织进每次 AI 改动：需求对证据、找矛盾、把风险变成可验证的修正。 |
@@ -571,6 +641,7 @@
 | mcode-stack | `MiniMax-AI/mcode-stack` | MiniMax Code 团队每天真正在用的工作流与 skill：怎么让 AI 写的代码保持高水准、任务该不该派给子 agent、长命令要等多久。 |
 | micro-project-tutor | `dbdg64/micro-project-tutor` | 用一个个微型真实项目教任何编程语言的 Claude Skill，不做选择题，只给建造任务、读你的代码再补缺口。 |
 | minimal-defensive-coding | `dengsmj123-hash/minimal-defensive-coding` | 让防御性代码与真实风险相称的 Codex Skill，专治层层 try/catch 与猜测式兼容层。 |
+| Narrator Worker | `lg4189/dsh-skills` | Narrator Worker 是 DeepSeek Harness 技能仓库里的讲解员加干活双角色协作技能：你（Lead）不亲自执行，而是派一个 worker agent 真正干活，同时向用户持续讲解进度、回答问题、转达需求变更，最后验收并汇报。 |
 | need-quest | `MELODYROSE456/Some-Agent-skills` | 需求模糊时多角度多轮追问、直到理解把握达 90% 以上才动手的需求澄清 Skill。 |
 | nicedocs | `rudolffu/nicedocs` | 按 Write the Docs 文档指南教 AI 编码 Agent 写文档的 6 个 Skill：原则、评审、标记、工具与项目文档。 |
 | no-obvious-questions | `rabbitdesigns22/no-obvious-questions` | 阻止 Agent 问它已经知道或能查到的事、只问真问题的 Skill。 |
@@ -588,15 +659,18 @@
 | product-brain-starter | `anurag-rivora/product-brain-starter` | 给产品团队的免费开源 AI 产品大脑 starter，含决策日志与所有 AI 工具先读的 AGENTS.md。 |
 | product-engineering | `phuryn/product-engineering` | 从三个已上线产品里提炼的 44 个 agent skill：决定做什么、用 Claude Code 或 Codex 做出来、让第二个模型审一遍、再发布。 |
 | product-management-skills | `remkovermeulen-pers/product-management-skills` | 配套《瓶颈在移动》系列文章的 3 个产品管理 Skill：决定做什么、沟通与用户测试。 |
+| Proof First | `lokki007/proof-first` | Proof First 要求 AI Agent 在说“做完了”之前先证明它真的能用，因为作者记录了一年与 AI 编码 Agent 的协作，发现约十分之一 Agent 说“做完了”之后，下一条消息就是“还是坏的”，换模型也解决不了这个问题。 |
 | rea | `morluto/rea` | 用 agent 从应用行为到底层二进制逆向任何东西；中英日韩等多语 README。 |
 | renewal-defender-skill | `reshminandy/renewal-defender-skill` | 为续约谈判核对已投入工时与实际产出、找出泄露工时并写挑战者附件的 Skill。 |
 | Replica skill | `Jakeschincariol/replica-skill` | 11 个免费 Claude skill，克隆任何应用：逆向、重建、测 bug，再读用户差评把它改成能卖的产品；无注册、无 API key。 |
+| Repository Deep Analysis Skills | `org-ai-context/_ai-context` | Repository Deep Analysis Skills 是一套可移植、与环境无关的技能集，让 Agent 像一支专家小队那样对仓库（代码、文档、基建、数据或任意组合）做深度认知分析，定义怎么思考、看什么、如何保持诚实、如何交付，且不依赖任何平台、产品、工具、厂商或环境。 |
 | research-handoff | `Spike66666/research-handoff` | Codex 研究写作 skill：按实验证据起草 Results 段落，用 Gemini 润色英文，并在本地 diff 里审改动再落笔。 |
 | research-humanizer | `lethimcookmybro/research-humanizer` | 起草、修订、翻译与审计泰英研究论文、数学方法与实验图表的 Skill。 |
 | research-synthesis-skill | `mleswell-ai/research-synthesis-skill` | 把一组来源变成可核查、可行动的综述：算确定性上限、留来源谱系、附验证工作表。 |
 | reverse-skill | `zhaoxuya520/reverse-skill` | 逆向工程 AI 技能：从优秀产品反推 prompt 与能力设计 |
 | reviewer2 | `mayar-ariss/reviewer2` | 按引用规则逐条审改研究论文各章节（标题摘要、引言、文献综述、方法、结果、讨论与图表说明）的 Skill。 |
 | risk-management-plugin | `egrzeszczak/risk-management-plugin` | 用六个问题带动项目风险管理的 LLM 插件，含目标设定、风险识别、资源共用与应对执行四个 Skill。 |
+| Rubric Gate | `joshdurum/rubric-gate` | Rubric Gate 给 AI 编码 Agent 做客观的真假二值质量评分卡与技能有用性自动审计，解决大多数 AI 质量检查要么在“代码干净”“看起来不错”这类模糊愿望后悄悄失败、要么靠 1 到 5 星评分把真问题藏起来的毛病。 |
 | saturo-gojo-of-business | `okorodavid/saturo-gojo-of-business` | 以证据为先给报价、获客、销售电话、异议处理、成交与留存提建议的商业顾问 Skill。 |
 | scientific-manuscript-writing-skill | `yizheng-hub/scientific-manuscript-writing-skill` | 撰写、修订、审计与排版高水平科学手稿及补充材料的 Skill。 |
 | seminar-deep-study | `nasqret/seminar-deep-study` | 把一篇论文做成研讨会深研的技能，从选题、用计算机代数复核计算、到产出笔记、幻灯片与演示。 |
@@ -618,15 +692,17 @@
 | teach-lessons | `knighto05/teach-lessons` | 在工作区内手把手教用户新技能或新概念的教学 Skill。 |
 | teach-me-everything | `Jograh/teach-me-everything` | 把 Claude 变成任意课程的私人导师，按课程材料与考试日期建学习计划、一对一教学并出题测验的技能。 |
 | teaching-practice-proposal-review | `lichunc-creator/teaching-practice-proposal-review` | 按 8 项重点审查教育部教学实践研究计划书的中文 Skill。 |
+| Technical Writing | `MrBogomips/eng-skills` | Technical Writing 是工程类 Claude Code 插件里的技术写作技能，写、改、审面向不同受众的技术文本：文档注释与 docstring、API 摘要与描述、OpenAPI 或 AsyncAPI 文档、API 报错信息、用户手册、帮助与界面文案、发布说明与更新日志、Runbook 与日志信息、实现注释、README 与设计笔记。 |
 | thinking-habits | `livejiaquan/thinking-habits` | 带真实问题来、帮你用几个可迁移思考习惯想清楚的 AI 助理 Skill，给直接合理的回答而非方法名词清单。 |
 | tstack | `t3dotgg/tstack` | Theo Browne 每天用的 agent skills 合集（full-send 等），Claude Code / Codex 可用。 |
+| Tutor Mode | `OussamaHaddouche/skills` | Tutor Mode 是一位同伴式编程导师：给简短的 what/how/why 指导与审阅，绝不替用户写代码，适用于“别替我写、只指导我”“解释一下”“审一下我写的”这类 tutor 模式。 |
 | unknown-unknowns | `yangkaiwen2002/unknown-unknowns` | 在开始不熟悉的事之前，挖出新手不知道该问什么的“未知之未知”并按代价排序的 Skill。 |
 | Vibe Coding 最佳提问方式 | — | 别只说"帮我做个 App"，采用"先调研，再定方案，最后动手"的三步法。 |
 | wreck | `hatchuuuu/wreck` | 审计、修复并重建 AI 味软件、要求更好软件质量的可移植 Agent Skill。 |
 | www-skill | `MishukAdhikari/www-skill` | Agent skill：用 What、Where、Why 三遍讲清一段代码路径、PR、功能想法或技术，并给出未来影响分析。 |
 | zm-skills | `leonccunha21/zm-skills` | 专业软件项目的完整 playbook：立项、实施、多 Agent 协作、记忆、合规与测试规则。 |
 
-## ai-tools/（165个）
+## ai-tools/（171个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -634,6 +710,7 @@
 | AIPlanHub | `HsMirage/AIPlanHub` | 一站式对比主流 AI 订阅方案，覆盖编程 / 视频 / 图片 / 音频 / API 多场景，帮用户找到性价比最高的选择。 |
 | agent-guardrails-skills | `zilbertov/agent-guardrails-skills` | 给编码 Agent 配的两条护栏技能，一个做仓库安全检查、一个按契约走 Herdr 多席位协作，均为已审阅的修订分支。 |
 | Agent Reach | `Panniantong/Agent-Reach` | 给 AI Agent 一键装上互联网能力，当下最稳的接入方式，替你选好、装好、体检好。 |
+| Agent Shield | `Eyad8588/agent-shield` | Agent Shield 像给 AI 插件装的杀毒软件：AI 助手会安装陌生人写的技能、插件（MCP 服务器）与模型文件，坏的会在暗地里让 AI 偷密码、跑有害命令或把文件发出去，而 Agent Shield 在安装之前先读这些文件，告诉你是安全（通过）、值得细看（警告）还是危险（拦截），并指出具体是哪一行。 |
 | agent-skills-aakashdandekar | `aakashdandekar/Agent-Skills` | 面向 Antigravity、Claude Code、Cursor、Codex 与 OpenCode 的生产级 Agent Skills 精选合集。 |
 | agent-skills-codandotv | `CodandoTV/agent-skills` | 把 GitHub issue 或工作描述变成有计划的本地提交、按固定格式开 PR、并从本地克隆评审 PR 的技能组。 |
 | agent-skills-productivelyslacking | `productivelyslacking/agent-skills` | 让 AI 编码 Agent 干活更谨慎的 Skills、规则与团队角色库，二十四个技能加十一个角色，覆盖自查、记录与交接。 |
@@ -643,11 +720,13 @@
 | agent-vision-toolkit | `Anionex/agent-vision-toolkit` | 给纯文本模型“看图”的视觉工具箱与 skill：多图理解、图片问答、长截图 OCR、前端 UI 还原、GUI 自动化，可接 Codex、Claude Code、Pi、OpenCode 等。 |
 | Agentic Inbox | `cloudflare/agentic-inbox` | 基于 Cloudflare 生态的开源 AI 邮件助手，利用 Agents 与向量数据库实现邮件分类、摘要、自动回复与智能搜索。 |
 | ai-soc-lab | `fareskamal11/ai-soc-lab` | 把安全日志交给 Claude 做 SOC 分流：只返回有证据的真实事件，外加配套的家庭实验室。 |
+| AIRouter | `mrmhthegreat/airouter` | AIRouter 是一个 Go 二进制加库，把提示词路由到多家免费层 AI 供应商（Groq、Gemini、Gemma、OpenRouter、Cerebras、Mistral、SambaNova、Ollama 与任意 OpenAI 兼容地址），一家撞上限就自动切换到下一家。 |
 | Anthropic 官方 Skills | `anthropics/skills` | Anthropic 官方 Agent Skills 仓库，141+ 个 skill，含文档处理等多个类别。 |
 | api-handoff | `hoangnhat42/api-handoff` | 把后端 PR 变成前端不用读后端代码就能对接的一份 Markdown 文档的 Agent Skill。 |
 | api-test-pilot-skill | `pankajkumar-codes/api-test-pilot-skill` | Agent Skill：为 REST 与 GraphQL 接口规划、生成并执行功能、安全、契约、性能与混沌测试。 |
 | Argus-paper-reader | `lryorb/Argus-paper-reader` | 全视之眼学术论文逻辑阅读 skill：用五透镜把论文转成双栏编辑式布局并做中英双语 HTML 批注，支持 Antigravity、Claude Code 与 Codex。 |
 | astack | `edwardma33/astack` | 帮不懂编程的人用 AI 助手做应用的技能组，从打磨想法、写 PRD、拆 issue 到换主题与解释代码。 |
+| Aura | 官网 www.aura.build | Aura 是一个 AI 网站与落地页生成器，输入需求即可生成落地页设计，可导出 HTML 与 Figma，站内提供免费模板，也可浏览社区作品。 |
 | automatebasics-skills | `Automatebasics/automatebasics-skills` | 五个免费的 Claude 日常办公 skill：理邮箱、逐行跑表格、写会议纪要、审 AI 文稿。 |
 | awesome-agent-skills | `VoltAgent/awesome-agent-skills` | 1000+ agent skills 精选合集，官方与社区出品，兼容 Claude Code、Codex、Gemini CLI、Cursor 等。 |
 | backend-designer | `Farivarz/Bakcend-Designer2027` | 读代码库再设计整个后端的 Claude Code skill：API 图、Postgres 结构、Redis 缓存与负载方案。 |
@@ -703,6 +782,7 @@
 | git-coda | `rufus-fan/git-coda` | 把改完代码后那套重复的 Git 流程一次走完的 Agent Skill，从分支、提交、检查到 PR 合并全部自动跑通。 |
 | GitHub Idea Finder | `cxxCoolStar/github-idea-finder` | 从一个产品想法出发，发现并评估 GitHub 上的开源替代项目。 |
 | goal-to-prompt | `cjawale-QABA/claude-skills` | 只给一个最终目标，就把它变成结构化提示词并直接执行的技能，必要时先提问再动手。 |
+| Google 账号与 AI 会员管理直链合集 | 官网 policies.google.com | 这篇帖文一次性扒齐了 11 个最核心的 Google 官方底层管理后台直链，帮玩 Google AI 会员的人解决“锁区、付不了款、开不了会员”的问题。 |
 | grok-build | `xai-org/grok-build` | xAI 开源的 coding agent harness 与终端 TUI |
 | herdr | `herdrdev/herdr` | 「编程 agent 们居住的运行时」——Rust 写的终端复用器/工作区管理器，专为多 coding agent 并行编排设计。 |
 | Hermes Agent | `NousResearch/hermes-agent` | Nous Research 的自我改进 agent：内置学习闭环，从经验生成 skill、检索自己的历史对话、用 MEMORY.md / USER.md 跨会话沉淀用户模型。 |
@@ -720,6 +800,7 @@
 | laravel-skill-partner | `anwaar12345/laravel-skill-partner` | 把 Claude 变成资深多角色 Laravel 搭档的 Skill，按你的代码库行事而非照搬教科书。 |
 | LibreChat | `danny-avila/LibreChat` | 一个界面同时接入 ChatGPT、Claude、Gemini 等多个主流大模型，支持多模型切换、对话管理和 Prompt 自定义。 |
 | linkedin-skills | `smedavarapu1/linkedin-skills` | 十一个运营 LinkedIn 的技能，覆盖发帖、评论、私信、轮播图与复用，起草后由人工自己粘贴发布。 |
+| linkedin-studio | `neelesh9924/linkedin-studio` | 在 Windows 本地跑 LinkedIn 内容工作流的桌面应用：用开源 linkedin-skills 起草、排期与发布帖子。 |
 | linux-server-audit | `SameerD2logix/claude-skill-linux-server-audit` | 对 Ubuntu/Debian 服务器做只读安全审计并打分，按不会把自己锁在门外的顺序指导修复的技能。 |
 | lll-skills | `lilly-logic-labs/lll-skills` | Lilly Logic Labs 的 27 个内部 skill：从规划、搭建、调试到发布、审计与交接全流程。 |
 | llm-pentest | `haoit/llm-pentest` | 面向大模型与 AI 系统渗透测试、红队的完整实战知识库，按 OWASP LLM Top 10、MITRE ATLAS 与 NIST AI 框架组织。 |
@@ -746,6 +827,7 @@
 | pw-web-exploitation | `haoit/pw-web-exploitation` | 把 PortSwigger Web 安全学院整套内容变成离线可用的 Claude Skill，覆盖 SQL 注入、XSS、SSRF 等 Web 漏洞利用。 |
 | qiaomu-deepseek-api | `joeseesun/qiaomu-deepseek-api` | 用一个 Agent Skill 调用 DeepSeek 官方 API 的工具集，搜索、读文档、OCR、转写、配音与 Flash 问答一次接好。 |
 | quiet-rebuild | `fangdididi/quiet-rebuild` | 证明“没改动就不构建、改一个文件只重建依赖项”的 Agent Skill，专治改了 nothing 却全量重建的浪费。 |
+| RealMaya | `roedyrustam/realmaya` | RealMaya 是一个 AI 原生的无头浏览器自动化库（Chrome 与 Firefox），核心是令牌压缩语义蒸馏器（覆盖开放 Shadow DOM、同源 iframe 与完整内容模式），另有自愈定位缓存（JSON 与 SQLite）、推测性并行分支（fork）、多步自主 Agent 循环（runAgent）、热浏览器池守护进程（realmaya daemon）、硬件级可信输入（isTrusted: true），以及提示词注入防火墙与危险动作防护。 |
 | repo-vet | `azudev4/repo-vet` | 在安装前检查仓库、软件包或下载物是否藏有后门的 Claude Code Skill，只读代码、从不运行它。 |
 | repoviz | `qiakai/repoviz` | 把任意代码库变成架构图、流程图与桑基图的 Skill，零配置、即时出 Markdown 链接。 |
 | resume-tailor-skill | `jar-narvz/resume-tailor-skill` | 按招聘启事把简历改成一页 LaTeX PDF 的 Claude Skill，只用你自己 bullet 库里的原话。 |
@@ -801,33 +883,46 @@
 | Skill | 仓库 | 备注 |
 |---|---|---|
 
-## tools/（47个）
+## tools/（68个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
 | agent-skills-iampreetdave | `iampreetdave-max/agent-skills` | 出自真实项目的 Claude Code Skill 合集，每个都源于 Agent 反复犯的同一个错。 |
 | agent-skills-sahildaswani | `sahildaswani/agent-skills` | 可在 Codex、Grok Build 与 Claude Code 间移植的 Agent Skill 合集（根因分析、拷问、PR 解读等）。 |
+| Agent Skills | `zohaibmushwani/agent-skills` | Agent Skills 是给 Claude Code 与其他支持技能的 Agent 用的 5 个 Agent 技能（SKILL.md 格式），其中 oss-first-development 要求从零写复杂系统之前，先找到、核实并评判已有的开源代码。 |
 | agentic-toolsmith | `Scorbutics/agentic-toolsmith` | 动手修应用之前，先让 Agent 自己造工具去触达、观察并监控运行中的应用的 Skill。 |
 | ahmed-agent-skills | `ahmedalmadhji/ahmed-agent-skills` | 面向 Cursor、Antigravity 与 Claude Code 的实用 Agent Skill 合集，覆盖前后端任意技术栈。 |
 | aiida-skill | `stillfast/aiida-skill` | 安装、配置、运行、批量提交与调试 AiiDA 计算工作流的 Skill。 |
+| Air Frying | `EthanSK/air-frying` | Air Frying 给 AI 助手一套排一顿空气炸锅饭的工作流，先定每个抽屉放什么，再算设置、时间与何时检查食物，让两个抽屉同时出锅。 |
+| annotated-study-sheets | `RodrigoPascual/annotated-study-sheets` | 把论文、PDF、网页或幻灯片变成手写批注式学习单：原文在左、手写风讲解在右，支持离线制作。 |
 | arch-map | `MELODYROSE456/Some-Agent-skills` | 扫描项目结构生成分层架构图、并高亮本次任务改动的模块的中文 Skill。 |
 | autarky | `pranshuchittora/autarky` | 在终端里扫当前目录下所有子项目的 node_modules，按多久没动过筛选，勾选后确认删除 |
+| Biomedical Publication Suite | `caude1/biomedical-publication-skill` | Biomedical Publication Suite 是一个生物医学论文写作与发表打磨的 Agent 技能，帮编码 Agent 读一个研究文件夹、理解分析结果、找到最强的科学故事、决定什么该进论文，并起草或修订可投稿的材料。 |
 | Bough | `nickelsec/bough` | Claude Code 和 Codex 的工作日志可视化工具——把 AI 的每一天、每一个 prompt、每一次 commit 都画出来。 |
 | browser-control | `enenhengrusty/browser-control` | 用 Chrome DevTools（CDP）原生指令操控用户日常运行的可视化浏览器做网页操作与自动化的中文 Skill。 |
 | builder-skills | `mergesafe-ai/builder-skills` | 给 AI 编码用户的小而专的免费 Skill：干净结束长会话交接与 CVE 可达性检查。 |
 | captcha-handoff | `rabbitdesigns22/captcha-handoff` | 让人点一下「我不是机器人」、Agent 随后自己继续干活的人机交接 Skill。 |
 | china-telecom-ont-guide | `lazyalex616/china-telecom-ont-guide` | 在机主已取得超密的前提下维护电信光猫、处理桥接与断网取证的中文 Skill。 |
+| CI Cost Cutter | `pbc-os/ci-cost-cutter` | CI Cost Cutter 审计一个仓库的 CI，用小步、可验证的方式砍掉时间与算力成本，且不削弱任何检查，涉及风险的改动先问人再动手。 |
+| cloudflare-glp1 | `fpsheaven/cloudflare-glp1` | 审计整个项目的 Cloudflare 花费：把 Workers、D1、队列与定时任务映射到账单，找出可省的浪费。 |
 | Code Review Skill | `awesome-skills/code-review-skill` | 一套面向 AI Coding Agent 的系统化代码审查 Skill。 |
 | Codex-Dream-Skin | `Fei-Away/Codex-Dream-Skin` | Codex 终端换肤工具，多套主题皮肤一键切换 |
+| Coding in TypeScript | `EthanSK/coding-in-typescript` | Coding in TypeScript 是从 AI Music Video Studio 的编码与 TypeScript 指令里提炼出的通用技能，把跨项目适用的指导抽成独立技能，供任何人写、改、审 TypeScript 代码时使用。 |
+| countries-states-cities | `davepartner/countries-states-cities` | 把国家、州、城市、区县与邮编数据集按需切到最小范围装进任意应用或 API 的 agent skill。 |
 | cpu-memory-guard | `agenciarse/cpu-memory-guard` | 在重活或重复本地任务前防止 Claude Code 占满 CPU、GPU 与内存的防护 Skill 与 Hook。 |
 | deep-research-skill | `ramzacc/deep-research-skill` | 用 Exa 并行做带引用的深度研究、产出 Markdown 与 PDF 报告的 Hermes Agent Skill。 |
 | deobf | `memcpython/deobf` | 让 agent 真凭实据地做混淆还原：恢复格式、可复用的解码器、指令语义与控制流，恢复不了的就明确标为未解决而不是编故事。 |
+| dev-habits | `acus9345/dev-habits` | 给编码 agent 立规矩：大改动后先过质量关、卡住时换路、交接留档，全程不用人催。 |
 | displayrecon | `SkorpioX22/DisplayRecon` | 为 Arduino/ESP32/RP2040 等单片机摸清几乎任何显示屏（OLED、TFT、字符 LCD、VFD、电子墨水）驱动方法的 Skill。 |
 | doc-lookup | `w3pe8xmk/doc-lookup` | 先查本地缓存、没有再查一手来源并存摘要的技术文档速查 Skill。 |
 | duo-hinge-skill | `bugenzhao/duo-hinge-skill` | 从命令行折叠、展开 iPhone Duo 模拟器并自由调整应用尺寸的 Agent Skill。 |
 | ebook-treasure-chest | `jbiaojerry/ebook-treasure-chest` | 电子书下载宝库索引：多平台书源导航与检索 |
 | electronic-shopping-skill | `57hemanth/electronic-shopping-skill` | 为特伦甘纳与安得拉邦买家按预算、品牌与用途推荐手机、笔记本、电视、空调与手表的购物建议 Skill。 |
+| Extended Resume | `Get-Lodely/extended-resume` | Extended Resume 是一个 Agent 技能（Claude 与 OpenAI Codex 可用），把电脑上已有的笔记与文档变成有证据支撑的深度职业记录与面试-ready 的行为问题答案，全程不打开用户没批准的文件。 |
 | geeno-prodready | `memara741-spec/geeno-prodready` | 把项目做到可上线生产就绪状态的 Skill（Geeno ProdReady）。 |
+| GitHub Flow | `isaacbroyles/ai-sdlc` | GitHub Flow 是 AI SDLC 技能集里的 GitHub Flow 技能，所属仓库把整套 AI 驱动软件开发生命周期（AI SDLC）做成 Claude Code 插件市场，任何仓库用两条命令就能安装，不用再到处复制提示词。 |
+| GPU Job | `skyeyesec333/gpu-job` | GPU Job 在一台多人共用的远程 GPU 机上跑重活（Blender/Cycles 渲染与烘焙、ML 推理、超分），走 SSH 且不踩到同样用这台机器的人、服务与其他 Agent 会话。 |
+| hack-session-relay | `hack-vibe-x/hack-session-relay` | 每天一次把本机的 Claude Code 与 Codex 会话记录同步到自建中继服务器，可查状态、可手动同步。 |
 | home-assistant-status-light | `agent-skills-exchange/home-assistant-status-light` | 在 Home Assistant 的一盏 RGB 灯上显示授权任务状态（进行中、成功、注意、失败），带定时恢复与静默时段的 Skill。 |
 | iphone-use | `zerosettle/iphone-use` | 在项目里搭建并操作一台已授权的实体 iPhone、装包验 Bug 与截图的 Skill。 |
 | keelsec | `codejunkie99/keelsec` | 18 个安全 Skill 加 /be-paranoid 命令，为编码 Agent 规划安全检查并给出合并结论。 |
@@ -837,6 +932,7 @@
 | multisim-lab-circuits | `jiangfan38324-crypto/claude-skills` | 按实验讲义图生成 NI Multisim 14 实验电路的 Skill。 |
 | No Negative Echo | `LB623/no-negative-echo` | 一个安装工具/脚本，用于安装 no-negative-echo 项目。 |
 | pgdeadbolt | `aryan-tah/pgdeadbolt` | 防止 AI 编码 Agent 提交会锁表的 Postgres 迁移、用真实测量定锁规则并排练迁移的 Skill。 |
+| python-error-coach | `zxbk12138/python-error-coach` | 面向 Python 学习者的诊断辅导 skill：结合代码与报错做诊断、教学、评审与进阶规划。 |
 | qoder-task-manager | `huahua-technophile/qoder-task-manager` | 管理本机 Qoder 任务与工作区、重命名迁移任务、整库备份回滚与体检的 Skill。 |
 | robosyn-motion | `yifanliu-ai/robosyn-motion` | 用 rollout 反馈、接触与相机检查优化 RoboSyn 操作规划的机器人动作 Skill。 |
 | schemaclash | `GillMacedo/schemaclash` | 在 Go 服务上线前找出 OpenTelemetry“conflicting Schema URL”错误的 Skill，附同名静态检查工具。 |
@@ -844,12 +940,19 @@
 | security-audit | `iforge-technologies/skillbase` | 给 AI Agent 用的生产级安全审计 Skill（skillbase 安全库）。 |
 | self-descriptive-merge-requests | `kirill-kolomin/self-descriptive-merge-requests` | 给 AI 写的合并请求加上评审者能看懂的意图与前后行为说明的 Skill。 |
 | ship-ready-skills | `getshipready/ship-ready-skills` | 53 个免费 Skill 帮 vibe-coded 应用补上发布缺口：泄露密钥、未签名 Stripe 回调、客户端鉴权等问题。 |
+| Ship Site | `skyeyesec333/ship-site` | Ship Site 把静态站或 Vite 应用发到 Cloudflare Pages 并证明它真的上线了，流程是看、提交、推送、构建、wrangler pages deploy、检查线上地址。 |
 | shopping-cry | `m7fx-1/shopping-cry` | 给 AI 助手装一个完整购物大脑：一个核心引擎加 16 个品类专家，比价、验质量并给出明确购买建议。 |
 | 说说 | `rcy1314/echo-noise` | 一个偏轻博客 / 说说流的个人碎片记录系统，适合发短内容、日常想法、备忘和轻量公开笔记。 |
 | skillbox-coding | `marekkawalski/skillbox-coding` | 三个 Agent Skill（更好代码评审、更好拷问、帮我理解）的编码工具箱。 |
+| skillmaster-cli | `skillmasterai/skillmaster-cli` | 安装、搜索、发布与运行 agent skill 的命令行工具（skmr），配套 SkillMaster 技能库使用。 |
+| Systematic Literature Review | `xtobando/slr-skill` | Systematic Literature Review 把文献综述从研究问题带到一套可追溯的发现，技能给 Agent 综述指令与一个 Python 工作台，也能用于试点检索或只读一篇 PDF 这类小任务。 |
 | sre-agent-skills | `MohammedAwaad/sre-agent-skills` | 日常 SRE 工作的四个 Skill：事故状态更新、日志分流、事后复盘与 runbook 转脚本。 |
 | svakom-ble-ai | `vickyldr/svakom-ble-ai` | 蓝牙设备协议逆向 + AI 远程控制的实验项目 |
 | switchproof-ugreen | `friendly-neighborhood-coding-man/switchproof-ugreen` | 迁移文件前做只读审计、逐项核对已验证、缺失与受阻文件的迁移检查 Skill。 |
+| TAF ggplot | `ices-taf-dev/ai` | TAF ggplot 把 TAF 脚本里的基础 R 图转成 ggplot2 图，或在 TAF 工作流里新建 ggplot2 图，写明哪些文件可以改、utilities.R 主题的用法与视觉风格。 |
+| TAF Workflow | `ices-taf-dev/ai` | TAF Workflow 教 AI Agent 修改与运行 TAF 工作流：TAF 是 R 语言科学工作流的标准格式（CRAN 上的 TAF 包），一个工作流分四步走——data.R 准备数据并写 CSV 表、model.R 跑模型、output.R 出结果、report.R 写报告。 |
+| testforge | `leonidasmich/testforge` | 自主软件测试 skill：分析代码库、设计测试计划、生成可维护的单元/集成/E2E 测试并安全执行、诊断失败。 |
+| UD Agent Skill MCP Plugin | `mehmetoguzderin/ud-agent-skill-mcp-plugin` | UD Agent Skill MCP Plugin 在你自己的 Agent 里校验、编辑、比较与研究通用依存（Universal Dependencies）树库与 CoNLL-U 文件，通过 Agent 自带的插件或 MCP 接口安装，打开树库文件夹就能开始工作。 |
 | whats-this-command-doing | `penicillinc3/whats-this-command-doing` | 用用户自己的语言解释命令行执行审批请求的 Skill。 |
 | zotero-tagging | `CMD-cmd/zotero-tagging` | 面向生物医药领域的 Zotero 文献自动导入与十维正交多级打标 Skill。 |
 
@@ -937,7 +1040,7 @@
 | stackchan-mcp | `migratorywhale/stackchan-mcp` | 给 AI 一个身体：Stack-chan（M5Stack CoreS3）的 MCP 桥，说/听/看/动/表情全走 MCP |
 | utsuwa | `The-Lab-by-Ordinary-Company/utsuwa` | Grok Companion 的开源替代：一个会陪你学习成长的虚拟 AI 伴侣平台，带日式约会模拟游戏（dating sim）机制，Svelte+Tauri+Three.js。 |
 
-## games/（41个）
+## games/（43个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -950,6 +1053,7 @@
 | Claude Code Game Studios | `Donchitos/Claude-Code-Game-Studios` | 一句话描述游戏，Claude Code 问几个问题、写一页 brief，做出可玩的浏览器游戏，再一步步改大改完；含 49 个 agent、72 个工作流 skill。 |
 | 赌场主题 COCOFOLIA APNG 通用地图界面素材 | 官网 www.postype.com | 给 COCOFOLIA（网页跑团平台）用的赌场主题通用地图界面素材，带 APNG 动态效果，免费下载。 |
 | Console skill | `Jakeschincariol/console-skill` | 11 个 Claude skill，把你拥有的 PS2 游戏移植到 PC：逆向、重建画面与后端、任意手柄、随处游玩，还能接着 mod。 |
+| Dungeon Critters | 官网 oddhatch.itch.io | Dungeon Critters 是独立开发者 Oddhatch 发布的像素怪素材，含史莱姆、骷髅、宝箱怪、幽灵等 16 只 32×32 像素怪物，每只配待机、走路、挨打三段动画，作者先由 AI 出底稿，再手工统一造型、配色和动画。 |
 | estella | `esengine/estella` | 快速 2D 游戏引擎：TypeScript SDK + C++/WASM 内核 + 可视化编辑器，一键发布 Web/桌面/微信小游戏/原生移动端。 |
 | fair-dice-mcp | `LROsocha-design/fair-dice-mcp` | 让 AI 地下城主作不了弊的骰子：先声明赌注再掷，模型不能重掷，结果由骰子定。 |
 | gam3stack | `coop-collective/gam3stack` | 给写游戏代码的 Agent 补上编译、运行真机、看结果的反馈闭环的 Unity/Unreal 开发套件。 |
@@ -964,6 +1068,7 @@
 | NovelToGame | `zenstory-ai/novel-to-game` | 把小说改编成可玩游戏：文字冒险、策略经营、互动影游，从策划案到可运行代码一站式生成。 |
 | NPCTalk | `christos-antono/NPCTalk` | 让任何游戏里的 NPC 用 Fish Audio 开口回话：自托管语音服务器加完整 GTA V 示例；与 universal-modder 同生态。 |
 | OpenGame | `leigest519/OpenGame` | Open Agentic Coding for Games：用 agent 化方式做游戏的开放项目。 |
+| Patch Toolbox | 官网 patch.gg | Patch Toolbox 提供 5 万份免费开源 3D 游戏素材，包含角色、怪物、机甲、建筑、场景、贴图、材质和音效，可搜索、预览并查看授权，支持 CLI 和 MCP，能让编程 Agent 直接检索素材并集成进项目。 |
 | pixelfx | `patch-gg/pixelfx` | 244 个像素风特效，每一个都是一小段代码，附 Claude Code skill 教你自己做。 |
 | plinkfx | `maximilianfeix/plinkfx` | 163 个游戏音效写成代码：CC0 音效、2.5 kB 播放器、转 WAV/OGG 的 CLI 与一个 agent skill，全程没有音频文件。 |
 | reference-to-game | `gokayfem/reference-to-game` | 把图片、视频、表格、草图或一句话变成可玩游戏：先保住参考的风格、配色与镜头感，再做成真正能玩的玩法。 |
@@ -983,7 +1088,7 @@
 | wow-addon-skills | `ChrisMiho/wow-addon-skills` | 为魔兽世界插件开发写的技能组，覆盖各客户端版本差异、游戏内实测验证与 CurseForge 发布流程。 |
 | xbox-remote-control | `404kidwiz/xbox-remote-control` | 用电脑通过 Remote Play 操作 Xbox 主机与任意游戏设置的 agent skill。 |
 
-## marketing-growth/（48个）
+## marketing-growth/（52个）
 
 | Skill | 仓库 | 备注 |
 |---|---|---|
@@ -1002,15 +1107,19 @@
 | claude-seo-geo-skills | `FaryalRazaBhatti/claude-seo-geo-skills` | 10 个免费的 Claude SEO 与 GEO/AEO Skill，按谷歌现行指南做整站审计、内容规划与 AI 搜索可见度诊断。 |
 | Claude SEO | `AgriciDaniel/claude-seo` | 通用 SEO skill：26 个子 skill 加 19 个 specialist agent，覆盖技术 SEO、E-E-A-T、Schema、GEO/AEO。 |
 | claude-skills-collection-erencalik | `erencalik/claude-skills-collection` | 端到端内容流水线的 8 个 Claude skill：Instagram 策划、文案、轮播图、动态视频与渲染质检。 |
+| claude-skills-for-marketing-leads | `baba-seo/claude-skills-for-marketing-leads` | 给要向老板解释自然搜索价值的市场负责人用的 skill：诊断 B2B 网站有流量没线索的原因并给出打法。 |
 | copywriting-skill | `olyaiy/copywriting-skill` | 教 AI Agent 按一线广告文案人的办法写、改、评说服性文案的 Agent Skill，提炼自《The Copy Book》。 |
 | creative-strategy-skills | `adswipefile/creative-strategy-skills` | 为 Meta 广告做创意策略的 Skill 合集：竞品研究、广告概念、钩子、创意机制与广告审计，均以真实 Facebook 广告为据。 |
 | cross-post-video-skill | `social-media-skills/cross-post-video-skill` | 一次把视频发到 TikTok、Reels 与 Shorts：先按各平台规则逐项检查，通过再上传。 |
 | factum-skills | `enricpedro/factum-skills` | YouTube 变现申诉 skill（Appeal Maker）：帮你选申诉还是改后 90 天重申，写 5 分钟内的申诉视频脚本并整理好给审核员看的资料包。 |
 | first-1000-players | `nguyenbui1105/first-1000-players` | 帮 AI 做游戏的人把游戏推给前一千名玩家的技能组，覆盖平台选择、短视频钩子与 Steam 页面愿望单。 |
+| founder-skill-plus | `Siddharthmehdiratta/founder-skill-plus` | 在花钱之前先拿 AI 买家团验证创业想法：组建多国买家画像、跑定价与卖点测试、输出完整商业计划。 |
 | growth-stack | `FinnTech3/growth-stack` | 十五个 agent 技能加三段标准库脚本，围绕一个页面循环做审计、按页面自身语气修补、建度量再审计。 |
+| GTM Plan 2027 | `guerrilla2799/gtm-plan-2027` | GTM Plan 2027 是一个免费的 Claude 技能，为 B2B SaaS 做一份能上董事会的 2027 年 go-to-market 计划，面向风险投资支持的中型 SaaS 公司的 AI 原生 CMO（年收入约 1000 万至 1.5 亿美元）。 |
 | honkpost-agent | `honkpost/honkpost-agent` | AI 写帖、Honkpost 代发：一个 skill 文件加一个 MCP 服务器，定时发布社交帖子。 |
 | instagram-weekly-content-planner | `erencalik/instagram-weekly-content-planner-claude` | 每周 Instagram 内容计划 skill：按爆款率排优先级做选题研究，再按触达复盘帖子。 |
 | lead-research | `SameerD2logix/claude-skill-lead-research` | 从公开信息研究 B2B 潜在客户、清洗去重并打分、再起草个性化首条消息的技能。 |
+| linkedin-career-coach | `splicendicemedia-Editing/linkedin-career-coach` | 先问清你的志向与优势，再帮你改 LinkedIn 档案、做 90 天内容计划并起草帖子与评论的职业教练 skill。 |
 | claude-seo（lowdevco） | `lowdevco/claude-seo` | 给 Claude Code 的网站 SEO skill：全面分析、审计与技术 SEO、AI 搜索优化，输出可直接执行的优先级路线图。 |
 | market-research-skill | `chrischabot/market-research-skill` | 分阶段的市场调研 skill：从仓库与几句话出发，摸清产品定位、竞品话术与增长打法。 |
 | marketingskills | `coreyhaines31/marketingskills` | 给 Claude Code 等 AI agent 的营销技能包：CRO、文案、SEO、数据分析、增长工程。 |
@@ -1045,4 +1154,4 @@
 
 ---
 
-*最后更新：2026-11-17（按仓库实际文件逐项核对；2026-11-17 猫猫说推，179 条一次推完后重生成）*
+*最后更新：2026-11-18（按仓库实际文件逐项核对；2026-11-18 猫猫说推，109 条一次推完后重生成）*
