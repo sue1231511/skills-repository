@@ -26,6 +26,7 @@ const categoryNames={
 const ignoredExternalHosts=['uibakery.io','docs.lovable.dev'];
 const state={query:'',category:'all',favoritesOnly:false,sort:'default'};
 const favorites=new Set(JSON.parse(localStorage.getItem('skill-favorites')||'[]'));
+const cart=new Set(JSON.parse(localStorage.getItem('skill-cart')||'[]'));
 const visits=JSON.parse(localStorage.getItem('skill-visits')||'{}');
 
 let skills=[];
@@ -39,6 +40,15 @@ const sortSelect=document.querySelector('#sortSelect');
 const stats=document.querySelector('#stats');
 const dialog=document.querySelector('#detailDialog');
 const dialogContent=document.querySelector('#dialogContent');
+const cartDrawer=document.querySelector('#cartDrawer');
+const cartBackdrop=document.querySelector('#cartBackdrop');
+const cartToggle=document.querySelector('#cartToggle');
+const cartCount=document.querySelector('#cartCount');
+const cartTotal=document.querySelector('#cartTotal');
+const cartList=document.querySelector('#cartList');
+const cartEmpty=document.querySelector('#cartEmpty');
+const cartPrompt=document.querySelector('#cartPrompt');
+const cartCopy=document.querySelector('#cartCopy');
 
 document.querySelector('#closeDialog').onclick=()=>dialog.close();
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
@@ -149,7 +159,8 @@ async function hydrate(skill){
     skill.description='打开仓库说明查看完整信息。';
     skill.loaded=true;
   }
-  render();
+  renderCard(skill);
+  updateStats();
 }
 
 function getFiltered(){
@@ -164,8 +175,9 @@ function getFiltered(){
 
 function cardHTML(s){
   const fav=favorites.has(s.id);
+  const inCart=cart.has(s.id);
   const url=s.sourceUrl||s.docUrl;
-  return `<article class="skill-card" data-id="${s.id}">
+  return `<article class="skill-card${inCart?' selected':''}" data-id="${s.id}">
     <div class="card-top">
       <span class="category-pill">${escapeHTML(categoryNames[s.category]||s.category)}</span>
       <button class="star-btn ${fav?'active':''}" data-fav="${s.id}" aria-label="收藏 ${escapeHTML(s.name)}">${fav?'★':'☆'}</button>
@@ -175,7 +187,10 @@ function cardHTML(s){
     ${s.tags.length?`<div class="tags">${s.tags.slice(0,3).map(t=>`<span class="tag">${escapeHTML(t)}</span>`).join('')}</div>`:''}
     <div class="card-actions">
       <a class="visit-link" data-visit="${s.id}" href="${escapeHTML(url)}" target="_blank" rel="noreferrer">${s.sourceUrl?'访问 Skill ↗':'查看说明 ↗'}</a>
-      <button class="detail-btn" data-detail="${s.id}">详情</button>
+      <span class="card-right">
+        <button class="cart-add-btn ${inCart?'active':''}" data-cart="${s.id}" aria-pressed="${inCart}">${inCart?'✓ 已选':'+ 待选'}</button>
+        <button class="detail-btn" data-detail="${s.id}">详情</button>
+      </span>
     </div>
   </article>`;
 }
@@ -189,6 +204,13 @@ function renderCategories(){
     .join('');
 }
 
+function updateStats(){
+  const loaded=skills.filter(s=>s.loaded).length;
+  const sourceCount=skills.filter(s=>s.sourceUrl).length;
+  const categoryCount=new Set(skills.map(s=>s.category)).size;
+  stats.innerHTML=`<span>条目<b>${skills.length}</b></span><span>分类<b>${categoryCount}</b></span><span>原项目<b>${sourceCount}</b></span><span>已读取<b>${loaded}/${skills.length}</b></span>`;
+}
+
 function render(){
   const list=getFiltered();
   grid.innerHTML=list.map(cardHTML).join('');
@@ -196,28 +218,155 @@ function render(){
   grid.hidden=list.length===0;
   favoriteToggle.classList.toggle('active',state.favoritesOnly);
   favoriteToggle.textContent=state.favoritesOnly?'收藏中':'收藏';
-
-  const loaded=skills.filter(s=>s.loaded).length;
-  const sourceCount=skills.filter(s=>s.sourceUrl).length;
-  const categoryCount=new Set(skills.map(s=>s.category)).size;
-  stats.innerHTML=`<span>条目<b>${skills.length}</b></span><span>分类<b>${categoryCount}</b></span><span>原项目<b>${sourceCount}</b></span><span>已读取<b>${loaded}/${skills.length}</b></span>`;
+  updateStats();
   bindCardEvents();
+  updateCartUI();
 }
 
-function bindCardEvents(){
-  document.querySelectorAll('[data-fav]').forEach(btn=>btn.onclick=e=>{
+function renderCard(skill){
+  const el=grid.querySelector(`[data-id="${skill.id}"]`);
+  if(!el)return;
+  const tpl=document.createElement('template');
+  tpl.innerHTML=cardHTML(skill).trim();
+  const fresh=tpl.content.firstElementChild;
+  el.replaceWith(fresh);
+  bindCardEvents(fresh);
+}
+
+function bindCardEvents(root=document){
+  root.querySelectorAll('[data-fav]').forEach(btn=>btn.onclick=e=>{
     e.preventDefault();
     const id=btn.dataset.fav;
     favorites.has(id)?favorites.delete(id):favorites.add(id);
     localStorage.setItem('skill-favorites',JSON.stringify([...favorites]));
     render();
   });
-  document.querySelectorAll('[data-visit]').forEach(a=>a.onclick=()=>{
+  root.querySelectorAll('[data-visit]').forEach(a=>a.onclick=()=>{
     visits[a.dataset.visit]=Date.now();
     localStorage.setItem('skill-visits',JSON.stringify(visits));
   });
-  document.querySelectorAll('[data-detail]').forEach(btn=>btn.onclick=()=>openDetail(btn.dataset.detail));
+  root.querySelectorAll('[data-detail]').forEach(btn=>btn.onclick=()=>openDetail(btn.dataset.detail));
+  root.querySelectorAll('[data-cart]').forEach(btn=>btn.onclick=e=>{
+    e.preventDefault();
+    const id=btn.dataset.cart;
+    cart.has(id)?cart.delete(id):cart.add(id);
+    saveCart();
+    render();
+    updateCartUI(true);
+  });
 }
+
+/* ---------- 待选区（购物车） ---------- */
+
+function saveCart(){
+  localStorage.setItem('skill-cart',JSON.stringify([...cart]));
+}
+
+function cartItems(){
+  return [...cart].map(id=>skills.find(s=>s.id===id)).filter(Boolean);
+}
+
+function usableDesc(s){
+  return s.loaded&&s.description&&!s.description.startsWith('正在读取')?s.description:'';
+}
+
+function buildPrompt(items){
+  if(!items.length)return '';
+  const lib='https://sue1231511.github.io/skills-repository/';
+  if(cartFormat.value==='plain'){
+    return `【AI Library 待选清单 · ${items.length} 个 Skill】\n来源：${lib}\n\n`+
+      items.map((s,i)=>`${i+1}. ${s.name}｜${s.sourceUrl||s.docUrl}`).join('\n');
+  }
+  const lines=[`我从 AI Library（${lib}）挑了 ${items.length} 个候选 Skill，请逐个打开对应仓库、阅读 README 与安装说明，帮我判断哪些值得用、该怎么接入。`,''];
+  items.forEach((s,i)=>{
+    lines.push(`${i+1}. ${s.name}（${categoryNames[s.category]||s.category}）`);
+    const desc=usableDesc(s);
+    if(desc)lines.push(`   简介：${desc}`);
+    lines.push(`   链接：${s.sourceUrl||s.docUrl}`);
+    if(s.tags.length)lines.push(`   标签：${s.tags.join(' ')}`);
+    lines.push('');
+  });
+  lines.push('请按这个结构输出：① 每个 Skill 解决什么问题、核心特性；② 安装/接入成本；③ 成熟度（Stars、最近维护、许可证）；④ 与我需求的匹配度；⑤ 最后给出优先级排序：直接推荐 / 可一试 / 暂缓，并说明理由。');
+  return lines.join('\n').trim();
+}
+
+function updateCartUI(refreshPrompt=false){
+  const items=cartItems();
+  cartCount.textContent=items.length;
+  cartTotal.textContent=items.length;
+  cartToggle.classList.toggle('active',items.length>0);
+  cartEmpty.hidden=items.length!==0;
+  cartList.hidden=items.length===0;
+  cartList.innerHTML=items.map(s=>{
+    const desc=usableDesc(s);
+    return `<div class="cart-item">
+      <div class="cart-item-main">
+        <a class="cart-item-name" href="${escapeHTML(s.sourceUrl||s.docUrl)}" target="_blank" rel="noreferrer">${escapeHTML(s.name)} ↗</a>
+        <div class="cart-item-meta"><span class="category-pill">${escapeHTML(categoryNames[s.category]||s.category)}</span></div>
+        ${desc?`<p>${escapeHTML(desc)}</p>`:''}
+      </div>
+      <button class="cart-item-remove" data-remove="${s.id}" aria-label="移除 ${escapeHTML(s.name)}">×</button>
+    </div>`;
+  }).join('');
+  document.querySelectorAll('[data-remove]').forEach(btn=>btn.onclick=()=>{
+    cart.delete(btn.dataset.remove);
+    saveCart();
+    render();
+    updateCartUI(true);
+  });
+  if(refreshPrompt||!cartPrompt.value)cartPrompt.value=buildPrompt(items);
+}
+
+function setCartOpen(open){
+  cartDrawer.classList.toggle('open',open);
+  cartBackdrop.classList.toggle('show',open);
+  if(open)updateCartUI(true);
+}
+
+document.querySelector('#cartClose').onclick=()=>setCartOpen(false);
+cartBackdrop.onclick=()=>setCartOpen(false);
+cartToggle.onclick=()=>setCartOpen(!cartDrawer.classList.contains('open'));
+document.querySelector('#cartAddAll').onclick=()=>{
+  const list=getFiltered();
+  if(!list.length)return;
+  list.forEach(s=>cart.add(s.id));
+  saveCart();
+  render();
+  updateCartUI(true);
+};
+document.querySelector('#cartClear').onclick=()=>{
+  if(!cart.size)return;
+  cart.clear();
+  saveCart();
+  render();
+  updateCartUI(true);
+};
+document.querySelector('#cartFormat').onchange=()=>updateCartUI(true);
+cartCopy.onclick=async()=>{
+  const text=cartPrompt.value.trim();
+  if(!text){
+    cartCopy.textContent='待选区还是空的';
+    setTimeout(()=>cartCopy.textContent='复制导出内容',1600);
+    return;
+  }
+  let ok=false;
+  try{await navigator.clipboard.writeText(text);ok=true}catch{}
+  if(!ok){
+    try{cartPrompt.focus();cartPrompt.select();ok=document.execCommand('copy')}catch{}
+  }
+  if(ok){
+    cartCopy.textContent='已复制 ✓ 去粘贴给 Agent';
+    cartCopy.classList.add('done');
+  }else{
+    cartPrompt.focus();
+    cartPrompt.select();
+    cartCopy.textContent='请按 Ctrl/⌘+C 复制';
+  }
+  setTimeout(()=>{
+    cartCopy.textContent='复制导出内容';
+    cartCopy.classList.remove('done');
+  },1800);
+};
 
 function openDetail(id){
   const s=skills.find(x=>x.id===id);
@@ -241,6 +390,7 @@ searchInput.addEventListener('input',e=>{state.query=e.target.value;render()});
 favoriteToggle.onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
 sortSelect.onchange=e=>{state.sort=e.target.value;render()};
 document.addEventListener('keydown',e=>{
+  if(e.key==='Escape')setCartOpen(false);
   if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){
     e.preventDefault();
     searchInput.focus();
@@ -251,6 +401,9 @@ async function boot(){
   try{
     const files=await discoverFiles();
     skills=makeSkills(files);
+    const valid=new Set(skills.map(s=>s.id));
+    [...cart].forEach(id=>{if(!valid.has(id))cart.delete(id)});
+    saveCart();
     renderCategories();
     render();
     Promise.allSettled(skills.map(hydrate));

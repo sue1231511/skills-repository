@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles-v2.css?v=20260922-2" />
+  <link rel="stylesheet" href="./styles-v2.css?v=20261118-1" />
 </head>
 <body>
   <header class="topbar">
@@ -36,6 +36,7 @@
       </label>
       <div class="control-actions">
         <button id="favoriteToggle" class="control-btn" type="button">☆ 收藏</button>
+        <button id="cartToggle" class="cart-btn" type="button" aria-label="打开待选区">待选 <span id="cartCount" class="cart-count">0</span></button>
         <select id="sortSelect" class="sort-select" aria-label="排序"><option value="default">默认排序</option><option value="az">名称 A–Z</option><option value="recent">最近访问</option></select>
       </div>
     </section>
@@ -44,8 +45,31 @@
       <section class="library-content"><div id="grid" class="skill-grid" aria-live="polite"></div><div id="empty" class="empty" hidden><strong>没搜到</strong><span>换个词。别跟搜索框较劲。</span></div></section>
     </section>
   </main>
+  <div id="cartBackdrop" class="cart-backdrop"></div>
+  <aside id="cartDrawer" class="cart-drawer" aria-label="待选区">
+    <div class="cart-head">
+      <div>
+        <span class="cart-kicker">待选区 / CART</span>
+        <h3>已选 <b id="cartTotal">0</b> 个 Skill</h3>
+      </div>
+      <button id="cartClose" class="dialog-close" type="button" aria-label="关闭待选区">×</button>
+    </div>
+    <div id="cartList" class="cart-list"></div>
+    <div id="cartEmpty" class="cart-empty">购物车还是空的。点击卡片上的「+ 待选」把 Skill 放进来，攒好后一起导出。</div>
+    <div class="cart-foot">
+      <div class="cart-actions">
+        <button id="cartAddAll" class="mini-btn" type="button">加入当前搜索结果</button>
+        <button id="cartClear" class="mini-btn danger" type="button">清空待选</button>
+      </div>
+      <label class="cart-format">导出格式
+        <select id="cartFormat"><option value="detail">Agent Prompt（含简介）</option><option value="plain">纯名称 + 链接</option></select>
+      </label>
+      <textarea id="cartPrompt" class="cart-prompt" spellcheck="false" placeholder="选好 Skill 后，这里会生成可复制的 Prompt 或链接清单…"></textarea>
+      <button id="cartCopy" class="cart-copy" type="button">复制导出内容</button>
+    </div>
+  </aside>
   <dialog id="detailDialog" class="detail-dialog"><button id="closeDialog" class="dialog-close" aria-label="关闭">×</button><div id="dialogContent"></div></dialog>
   <footer class="footer"><span>AI Library</span><span>Curated from the repository.</span></footer>
-  <script src="./app.js?v=20260920-1"></script>
+  <script src="./app.js?v=20261118-1"></script>
 </body>
 </html>
