@@ -73,3 +73,8 @@ button,input,select{font:inherit}a{color:inherit}
 .cart-copy:hover{background:var(--accent)}
 .cart-copy.done{background:var(--accent)}
 @media(max-width:740px){.control-actions{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cart-btn,.control-btn,.sort-select{min-width:0;width:100%}.sort-select{padding-right:26px}.cart-drawer{width:100%;border-left:0}.cart-head{padding:18px 16px 14px}.cart-list{padding:4px 16px}.cart-foot{padding:12px 16px 16px}.cart-prompt{height:160px}}
+.load-more-wrap{padding:18px 0 8px;text-align:center}
+.load-more-btn{height:42px;padding:0 22px;border:1px solid var(--ink);border-radius:9px;background:var(--ink);color:#fff;font-size:12px;font-weight:600;cursor:pointer}
+.load-more-btn:hover{background:var(--accent);border-color:var(--accent)}
+.load-more-btn:disabled{opacity:.45;cursor:default}
+.search-hint{padding:8px 2px 0;color:#a09d94;font-size:11px}

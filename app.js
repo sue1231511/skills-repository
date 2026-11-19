@@ -30,6 +30,11 @@ const cart=new Set(JSON.parse(localStorage.getItem('skill-cart')||'[]'));
 const visits=JSON.parse(localStorage.getItem('skill-visits')||'{}');
 
 let skills=[];
+const PAGE_SIZE=30;
+let allFiles=[];
+let filesByCategory={};
+let fetchedCount={};
+let loading=false;
 
 const grid=document.querySelector('#grid');
 const empty=document.querySelector('#empty');
@@ -49,6 +54,8 @@ const cartList=document.querySelector('#cartList');
 const cartEmpty=document.querySelector('#cartEmpty');
 const cartPrompt=document.querySelector('#cartPrompt');
 const cartCopy=document.querySelector('#cartCopy');
+const loadMoreBtn=document.querySelector('#loadMoreBtn');
+const searchHint=document.querySelector('#searchHint');
 
 document.querySelector('#closeDialog').onclick=()=>dialog.close();
 dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
@@ -163,6 +170,30 @@ async function hydrate(skill){
   updateStats();
 }
 
+function viewFiles(){
+  if(state.category==='all')return allFiles;
+  return (filesByCategory[state.category]||[]).map(f=>[state.category,f]);
+}
+
+// 只读当前视图的下一页（30 个文件），别的 tab 一个字都不读
+async function loadNextPage(){
+  if(loading)return;
+  const files=viewFiles();
+  const key=state.category;
+  const done=fetchedCount[key]||0;
+  if(done>=files.length)return;
+  loading=true;
+  renderLoadMore();
+  const batch=files.slice(done,done+PAGE_SIZE);
+  const made=makeSkills(batch);
+  made.forEach(s=>{if(!skills.some(x=>x.id===s.id))skills.push(s)});
+  skills.sort((a,b)=>a.category.localeCompare(b.category)||a.file.localeCompare(b.file));
+  await Promise.allSettled(made.map(hydrate));
+  fetchedCount[key]=done+batch.length;
+  loading=false;
+  render();
+}
+
 function getFiltered(){
   let list=skills.filter(s=>state.category==='all'||s.category===state.category);
   if(state.favoritesOnly)list=list.filter(s=>favorites.has(s.id));
@@ -196,8 +227,8 @@ function cardHTML(s){
 }
 
 function renderCategories(){
-  const counts={all:skills.length};
-  skills.forEach(s=>counts[s.category]=(counts[s.category]||0)+1);
+  const counts={all:allFiles.length};
+  Object.keys(filesByCategory).forEach(c=>counts[c]=filesByCategory[c].length);
   categoryNav.innerHTML=Object.keys(categoryNames)
     .filter(k=>counts[k])
     .map(k=>`<button class="category-btn ${state.category===k?'active':''}" data-category="${k}"><span>${categoryNames[k]}</span><span>${counts[k]}</span></button>`)
@@ -207,8 +238,8 @@ function renderCategories(){
 function updateStats(){
   const loaded=skills.filter(s=>s.loaded).length;
   const sourceCount=skills.filter(s=>s.sourceUrl).length;
-  const categoryCount=new Set(skills.map(s=>s.category)).size;
-  stats.innerHTML=`<span>条目<b>${skills.length}</b></span><span>分类<b>${categoryCount}</b></span><span>原项目<b>${sourceCount}</b></span><span>已读取<b>${loaded}/${skills.length}</b></span>`;
+  const categoryCount=Object.keys(filesByCategory).length;
+  stats.innerHTML=`<span>条目<b>${allFiles.length}</b></span><span>分类<b>${categoryCount}</b></span><span>原项目<b>${sourceCount}</b></span><span>已读取<b>${loaded}/${allFiles.length}</b></span>`;
 }
 
 function render(){
@@ -219,8 +250,29 @@ function render(){
   favoriteToggle.classList.toggle('active',state.favoritesOnly);
   favoriteToggle.textContent=state.favoritesOnly?'收藏中':'收藏';
   updateStats();
+  const viewTotal=viewFiles();
+  const viewDone=fetchedCount[state.category]||0;
+  if(state.query.trim()&&viewDone<viewTotal.length){
+    searchHint.hidden=false;
+    searchHint.textContent=`搜索只在已加载的 ${viewDone} 条里找（这个 tab 共 ${viewTotal.length} 条）。想搜全部，先点下面的「加载更多」把这个 tab 读完。`;
+  }else{
+    searchHint.hidden=true;
+  }
+  renderLoadMore();
   bindCardEvents();
   updateCartUI();
+}
+
+function renderLoadMore(){
+  const files=viewFiles();
+  const done=fetchedCount[state.category]||0;
+  if(done>=files.length){
+    loadMoreBtn.disabled=true;
+    loadMoreBtn.textContent='已经到底啦';
+  }else{
+    loadMoreBtn.disabled=loading;
+    loadMoreBtn.textContent=loading?'正在读…':`加载更多（已读 ${done} / 共 ${files.length} 条）`;
+  }
 }
 
 function renderCard(skill){
@@ -385,10 +437,12 @@ categoryNav.addEventListener('click',e=>{
   state.category=b.dataset.category;
   renderCategories();
   render();
+  loadNextPage();
 });
 searchInput.addEventListener('input',e=>{state.query=e.target.value;render()});
 favoriteToggle.onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
 sortSelect.onchange=e=>{state.sort=e.target.value;render()};
+loadMoreBtn.onclick=()=>loadNextPage();
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape')setCartOpen(false);
   if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){
@@ -400,13 +454,15 @@ document.addEventListener('keydown',e=>{
 async function boot(){
   try{
     const files=await discoverFiles();
-    skills=makeSkills(files);
-    const valid=new Set(skills.map(s=>s.id));
+    allFiles=files;
+    filesByCategory={};
+    files.forEach(([c,f])=>{(filesByCategory[c]=filesByCategory[c]||[]).push(f)});
+    const valid=new Set(files.map(([c,f])=>`${c}/${f}`));
     [...cart].forEach(id=>{if(!valid.has(id))cart.delete(id)});
     saveCart();
     renderCategories();
     render();
-    Promise.allSettled(skills.map(hydrate));
+    loadNextPage();
   }catch(err){
     console.error(err);
     skills=[];
